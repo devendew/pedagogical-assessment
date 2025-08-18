@@ -1,0 +1,32 @@
+name: Generate Changelog
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - "v*"   # e.g., v1.0.0
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # required so the action can read all commits/tags
+
+      - name: Generate CHANGELOG.md
+        uses: TriPSs/conventional-changelog-action@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-file: CHANGELOG.md
+          preset: conventionalcommits
+          tag-prefix: v
+          release-count: 0          # include all releases in the file
+          skip-on-empty: false      # still commit if there are no new changes
+          commit-message: "chore(changelog): update CHANGELOG.md"
+          # create-release: true     # uncomment if you also want a GitHub Release
