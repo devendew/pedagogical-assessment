@@ -1,0 +1,28 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main   # or your default branch
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run release-please
+        uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: node  # or 'python', 'java', 'go', 'simple' etc.
+          package-name: my-project
+          changelog-types: |
+            [
+              { "type": "feat", "section": "Features" },
+              { "type": "fix", "section": "Bug Fixes" },
+              { "type": "docs", "section": "Documentation" },
+              { "type": "chore", "section": "Miscellaneous", "hidden": true },
+              { "type": "test", "section": "Tests", "hidden": true }
+            ]
