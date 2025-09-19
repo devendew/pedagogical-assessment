@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 
-dataset = pd.read_json('assignment_3_ai_tutors_dataset.json')
+dataset = pd.read_json('/DATA/cs24mtech12016/repos/pedagogical-assessment/data/trainset.json')
 dataset
 
 #tutor names in the tutor_responses column
@@ -22,8 +22,7 @@ all_tutors = ['Llama318B','Llama31405B', 'Phi3', 'Expert', 'Gemini', 'Novice', '
 # Create new DataFrame with desired structure
 new_df = pd.DataFrame(columns=[
     'conversation_id', 'conversation_history', 'tutor_name', 'response',
-    'annotation_Mistake_Identification', 'annotation_Mistake_Location',
-    'annotation_Providing_Guidance', 'annotation_Actionability'
+    'Mistake_Identification', 'Providing_Guidance'
 ])
 
 # Populate the DataFrame
@@ -51,10 +50,10 @@ for index, row in df.iterrows():
                 'conversation_history': conversation_history,
                 'tutor_name': tutor_name,
                 'response': response,
-                'annotation_Mistake_Identification': annotation.get('Mistake_Identification', np.nan),
-                'annotation_Mistake_Location': annotation.get('Mistake_Location', np.nan),
-                'annotation_Providing_Guidance': annotation.get('Providing_Guidance', np.nan),
-                'annotation_Actionability': annotation.get('Actionability', np.nan)
+                'Mistake_Identification': annotation.get('Mistake_Identification', np.nan),
+                
+                'Providing_Guidance': annotation.get('Providing_Guidance', np.nan),
+                
             }
             new_df = pd.concat([new_df, pd.DataFrame([new_row])], ignore_index=True)
 
@@ -299,18 +298,18 @@ print(f"Conversations Exceeding 700 Tokens: {results['token_stats']['combined'][
 df = add_speaker_texts_to_df(df)
 
 # Stratified train/validation/test split (using main task for stratification)
-# Drop rows with NaN values in 'annotation_Mistake_Identification' before splitting
+# Drop rows with NaN values in 'Mistake_Identification' before splitting
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
-df = df.dropna(subset=['annotation_Mistake_Identification'])
+df = df.dropna(subset=['Mistake_Identification'])
 
 train_val_df, test_df = train_test_split(
-    df, stratify=df['annotation_Mistake_Identification'], test_size=0.15, random_state=42
+    df, stratify=df['Mistake_Identification'], test_size=0.15, random_state=42
 )
 val_size = 0.176
 train_df, val_df = train_test_split(
-    train_val_df, stratify=train_val_df['annotation_Mistake_Identification'], test_size=val_size, random_state=42
+    train_val_df, stratify=train_val_df['Mistake_Identification'], test_size=val_size, random_state=42
 )
 
 """##Model"""
@@ -353,10 +352,10 @@ import json
 def map_labels(df):
     label_map = {"No": 0, "To some extent": 1, "Yes": 2}
     for col in [
-        'annotation_Mistake_Identification',
-        'annotation_Mistake_Location',
-        'annotation_Providing_Guidance',
-        'annotation_Actionability'
+        'Mistake_Identification',
+        
+        'Providing_Guidance'
+        
     ]:
         df[col] = df[col].map(label_map)
     return df
@@ -375,10 +374,10 @@ class TutorDataset(Dataset):
     def __init__(self, df, max_len=512):
         self.texts = (df['response'] +" [SEP] " + df['student_text']+ " [SEP] " + df['question'] ).tolist()
         self.labels = df[[
-            'annotation_Mistake_Identification',
-            'annotation_Mistake_Location',
-            'annotation_Providing_Guidance',
-            'annotation_Actionability'
+            'Mistake_Identification',
+            
+            'Providing_Guidance',
+            
         ]].values
         self.max_len = max_len
     def __len__(self): return len(self.texts)
@@ -412,9 +411,9 @@ class MultiTaskBert(nn.Module):
         self.fc2 = nn.Linear(fc_hidden_size, fc_hidden_size)
         self.act = nn.ReLU()
         self.ident_head  = nn.Linear(fc_hidden_size, 3)
-        self.loc_head    = nn.Linear(fc_hidden_size, 3)
+        
         self.guide_head  = nn.Linear(fc_hidden_size, 3)
-        self.action_head = nn.Linear(fc_hidden_size, 3)
+        
 
     def forward(self, input_ids, attention_mask):
         out = self.bert(input_ids=input_ids, attention_mask=attention_mask)
@@ -422,7 +421,7 @@ class MultiTaskBert(nn.Module):
         x = self.dropout(x)
         x = self.act(self.fc1(x)); x=self.dropout(x)
         x = self.act(self.fc2(x)); x=self.dropout(x)
-        return (self.ident_head(x), self.loc_head(x), self.guide_head(x), self.action_head(x))
+        return (self.ident_head(x), self.guide_head(x))
 
 def compute_loss(logits, labels, alpha=0.25, gamma=2.0, weights=None):
     """
@@ -437,7 +436,7 @@ def compute_loss(logits, labels, alpha=0.25, gamma=2.0, weights=None):
         Total focal loss across all tasks.
     """
     if weights is None:
-        weights = [1.4271065569828554, 1.0247356643310799, 0.8690676699308719, 1.0640074262770733]  # Setting weights for all tasks
+        weights = [1.4271065569828554, 0.8690676699308719]  # Setting weights for all tasks
 
     loss_fn = nn.CrossEntropyLoss(reduction='none')  # Use reduction='none' to compute per-sample loss
     total = 0
@@ -483,14 +482,14 @@ def eval_model(model, loader, device):
             preds=[torch.argmax(l,1).cpu().numpy() for l in logits]
             all_labels.append(labels); all_preds.append(np.stack(preds,1))
     all_labels=np.vstack(all_labels); all_preds=np.vstack(all_preds)
-    metrics={}; tasks=['identification','location','guidance','actionability']
+    metrics={}; tasks=['identification','guidance']
     for i,t in enumerate(tasks):
         y_true, y_pred = all_labels[:,i], all_preds[:,i]
         metrics[f"{t}_acc"]=accuracy_score(y_true,y_pred)
         metrics[f"{t}_f1"]=f1_score(y_true,y_pred,average='macro')
-        y_true_b, y_pred_b = (y_true!=0).astype(int),(y_pred!=0).astype(int)
-        metrics[f"{t}_lenient_acc"]=accuracy_score(y_true_b,y_pred_b)
-        metrics[f"{t}_lenient_f1"]=f1_score(y_true_b,y_pred_b,average='macro')
+        # y_true_b, y_pred_b = (y_true!=0).astype(int),(y_pred!=0).astype(int)
+        # metrics[f"{t}_lenient_acc"]=accuracy_score(y_true_b,y_pred_b)
+        # metrics[f"{t}_lenient_f1"]=f1_score(y_true_b,y_pred_b,average='macro')
 
     # Calculate average F1 score across all dimensions
     metrics["avg_f1"] = np.mean([metrics[f"{t}_f1"] for t in tasks])
@@ -512,20 +511,20 @@ def get_preds_labels(model, loader, device, lenient=False):
     return np.vstack(all_lbl), np.vstack(all_pr)
 
 # 8. Modified training loop with configurable hyperparameters
-def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.4352796960051026e-05,
-                patience=10, alpha=0.25, gamma=2.0, weights=None, outdir=None):
+def train_loop(model, tr_loader, val_loader, device, epochs=25, lr=2.4352796960051026e-05,
+                patience=5, alpha=0.25, gamma=2.0, weights=None, outdir=None, weight_decay=0.01):
     # Check token lengths
     check_token_lengths(train_df); check_token_lengths(val_df); check_token_lengths(test_df)
 
     # Create optimizer and scheduler
-    opt=AdamW(model.parameters(),lr=lr)
+    opt=AdamW(model.parameters(),lr=lr,weight_decay=weight_decay)
     sched=get_linear_schedule_with_warmup(opt,num_warmup_steps=0,num_training_steps=epochs*len(tr_loader))
 
     # Initialize tracking variables
     train_losses,val_losses=[],[]; best_f1,wait=0,0
 
     # Initialize dictionaries to store task-specific metrics
-    tasks = ['identification', 'location', 'guidance', 'actionability']
+    tasks = ['identification', 'guidance']
     train_task_acc = {t: [] for t in tasks}
     val_task_acc = {t: [] for t in tasks}
 
@@ -558,16 +557,17 @@ def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.435279696005
         "patience": patience,
         "alpha": alpha,
         "gamma": gamma,
-        "weights": weights if weights else [1.427, 1.025, 0.869, 1.064],
+        "weights": weights if weights else [1.427, 0.869],
         "dropout_rate": dropout_rate,
         "freeze_layers": frozen_layers,
         "fc_hidden_size": fc_hidden_size
+        "weight_decay": weight_decay
     }
 
     with open(os.path.join(outdir, 'hyperparameters.json'), 'w') as f:
         json.dump(hyperparams, f, indent=4)
 
-    tasks=['identification','location','guidance','actionability']
+    tasks=['identification','guidance']
 
     # Training loop
     for e in range(1,epochs+1):
@@ -594,8 +594,8 @@ def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.435279696005
         for t in tasks:
             print(f"  {t}_acc: {val_metrics[f'{t}_acc']:.4f}")
             print(f"  {t}_f1: {val_metrics[f'{t}_f1']:.4f}")
-            print(f"  {t}_lenient_acc: {val_metrics[f'{t}_lenient_acc']:.4f}")
-            print(f"  {t}_lenient_f1: {val_metrics[f'{t}_lenient_f1']:.4f}")
+            # print(f"  {t}_lenient_acc: {val_metrics[f'{t}_lenient_acc']:.4f}")
+            # print(f"  {t}_lenient_f1: {val_metrics[f'{t}_lenient_f1']:.4f}")
 
         print(f"  avg_f1: {val_metrics['avg_f1']:.4f}")
 
@@ -629,8 +629,8 @@ def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.435279696005
     for t in tasks:
         print(f"  {t}_acc: {test_metrics[f'{t}_acc']:.4f}")
         print(f"  {t}_f1: {test_metrics[f'{t}_f1']:.4f}")
-        print(f"  {t}_lenient_acc: {test_metrics[f'{t}_lenient_acc']:.4f}")
-        print(f"  {t}_lenient_f1: {test_metrics[f'{t}_lenient_f1']:.4f}")
+        # print(f"  {t}_lenient_acc: {test_metrics[f'{t}_lenient_acc']:.4f}")
+        # print(f"  {t}_lenient_f1: {test_metrics[f'{t}_lenient_f1']:.4f}")
     print(f"  avg_f1: {test_metrics['avg_f1']:.4f}")
 
     # # Plot loss
@@ -692,7 +692,7 @@ def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.435279696005
 
     # Fixed label names
     exact_labels = ["No", "To some extent", "Yes"]
-    lenient_labels = ["No", "Yes"]
+    #lenient_labels = ["No", "Yes"]
 
     # Exact Confusion Matrices
     y_true, y_pred = get_preds_labels(model, test_loader, device, lenient=False)
@@ -711,20 +711,20 @@ def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.435279696005
         plt.close()
 
     # Lenient Confusion Matrices
-    y_true_l, y_pred_l = get_preds_labels(model, test_loader, device, lenient=True)
-    for i, t in enumerate(tasks):
-        cm = confusion_matrix(y_true_l[:, i], y_pred_l[:, i], labels=[0, 1])  # 0=No, 1=Yes
-        plt.figure(figsize=(8, 6))
+    # y_true_l, y_pred_l = get_preds_labels(model, test_loader, device, lenient=True)
+    # for i, t in enumerate(tasks):
+    #     cm = confusion_matrix(y_true_l[:, i], y_pred_l[:, i], labels=[0, 1])  # 0=No, 1=Yes
+    #     plt.figure(figsize=(8, 6))
 
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
-                    xticklabels=lenient_labels, yticklabels=lenient_labels)
+    #     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+    #                 xticklabels=lenient_labels, yticklabels=lenient_labels)
 
-        plt.title(f'Confusion Matrix - {t.capitalize()} (Lenient)', fontsize=14)
-        plt.xlabel('Predicted Label', fontsize=12)
-        plt.ylabel('True Label', fontsize=12)
-        plt.tight_layout()
-        plt.savefig(os.path.join(outdir, f'cm_{t}_lenient.png'), dpi=300)
-        plt.close()
+    #     plt.title(f'Confusion Matrix - {t.capitalize()} (Lenient)', fontsize=14)
+    #     plt.xlabel('Predicted Label', fontsize=12)
+    #     plt.ylabel('True Label', fontsize=12)
+    #     plt.tight_layout()
+    #     plt.savefig(os.path.join(outdir, f'cm_{t}_lenient.png'), dpi=300)
+    #     plt.close()
 
 
     print(f"Outputs saved to {outdir}")
@@ -733,13 +733,15 @@ def train_loop(model, tr_loader, val_loader, device, epochs=2, lr=2.435279696005
 # Define objective function for Optuna
 def objective(trial):
     # Define hyperparameters to tune
+    trial_dir = f"optuna_trial/trial_{trial.number}"
 
     # Model architecture hyperparameters
     lr = trial.suggest_float("learning_rate", 1e-6, 1e-4, log=True)
+    weight_decay = trial.suggest_float("weight_decay", 1e-5, 1e-2, log=True) 
     batch_size = trial.suggest_categorical("batch_size", [4, 8, 16])
-    dropout_rate = trial.suggest_categorical("dropout_rate", [0.1, 0.2, 0.3])
-    freeze_layers = trial.suggest_categorical("freeze_layers", [0, 2, 4, 6])
-    fc_hidden_size = trial.suggest_categorical("fc_hidden_size", [768, 1024])
+    dropout_rate = trial.suggest_categorical("dropout_rate", [0.1, 0.2, 0.3,0.4])
+    freeze_layers = trial.suggest_categorical("freeze_layers", [0, 2, 4, 6, 8])
+    fc_hidden_size = trial.suggest_categorical("fc_hidden_size", [512, 768, 1024])
 
     # Focal loss hyperparameters
     alpha = trial.suggest_float("alpha", 0.1, 0.5)
@@ -750,27 +752,32 @@ def objective(trial):
 
     if tune_weights:
         id_weight = trial.suggest_float("id_weight", 0.5, 2.0)
-        loc_weight = trial.suggest_float("loc_weight", 0.5, 2.0)
+        
         guide_weight = trial.suggest_float("guide_weight", 0.5, 2.0)
-        action_weight = trial.suggest_float("action_weight", 0.5, 2.0)
-        weights = [id_weight, loc_weight, guide_weight, action_weight]
+        
+        weights = [id_weight, guide_weight]
     else:
         # Use default weights from your previous optimization
-        weights = [1.0, 1.0, 1.0, 1.0]
+        weights = [1.0, 1.0]
 
     # Create model with trial hyperparameters
     model = MultiTaskBert(
         dropout_rate=dropout_rate,
         freeze_layers=freeze_layers,
         fc_hidden_size=fc_hidden_size
-    ).to(device)
+    )
+
+    if torch.cuda.device_count() > 1:
+        print(f"Using {torch.cuda.device_count()} GPUs")
+        model = nn.DataParallel(model)
+
+    model.to(device)    
 
     # Create dataloaders with trial batch size
     tr_dl = DataLoader(TutorDataset(train_df), batch_size=batch_size, shuffle=True)
     vl_dl = DataLoader(TutorDataset(val_df), batch_size=batch_size, shuffle=False)
 
-    # Create output directory for this trial
-    trial_dir = f"optuna_trial_{trial.number}"
+
 
     # Train with fewer epochs for hyperparameter tuning
     try:
@@ -781,6 +788,7 @@ def objective(trial):
             device=device,
             epochs=10,  # Reduced for faster tuning
             lr=lr,
+            weight_decay=weight_decay,
             patience=5,  # Reduced for faster tuning
             alpha=alpha,
             gamma=gamma,
@@ -797,13 +805,13 @@ if __name__=='__main__':
     start_time = datetime.now()
 
     train_df=map_labels(train_df); val_df=map_labels(val_df); test_df=map_labels(test_df)
-    device=torch.device('xpu' if torch.xpu.is_available() else 'cpu')
+    device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Using the device: {device}")
 
     # Hyperparameter tuning
     print("Starting hyperparameter tuning...")
     study = optuna.create_study(direction="maximize", pruner=MedianPruner())
-    study.optimize(objective, n_trials=20)  # Adjust number of trials as needed
+    study.optimize(objective, n_trials=100)  # Adjust number of trials as needed
 
     # Print best hyperparameters
     print("Best trial:")
@@ -832,19 +840,25 @@ if __name__=='__main__':
     if trial.params.get("tune_weights", False):  # default to False if not present
         best_weights = [
             trial.params["id_weight"],
-            trial.params["loc_weight"],
+            
             trial.params["guide_weight"],
-            trial.params["action_weight"]
+            
         ]
     else:
-        best_weights = [1.4271065569828554, 1.0247356643310799, 0.8690676699308719, 1.0640074262770733]
+        best_weights = [1.4271065569828554, 0.8690676699308719]
 
     # Create final model and dataloaders
     final_model = MultiTaskBert(
         dropout_rate=best_dropout_rate,
         freeze_layers=best_freeze_layers,
         fc_hidden_size=best_fc_hidden_size
-    ).to(device)
+    )
+
+    if torch.cuda.device_count( >0:
+        print(f"Using {torch.cuda.device_count()} GPUs")
+        final_model = nn.DataParallel(final_model)
+
+    final_model.to(device)
 
     final_tr_dl = DataLoader(TutorDataset(train_df), batch_size=best_batch_size, shuffle=True)
     final_vl_dl = DataLoader(TutorDataset(val_df), batch_size=best_batch_size, shuffle=False)
