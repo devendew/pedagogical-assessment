@@ -62,7 +62,7 @@ def augment_class_balancing(df, target_column='label'):
     other_df = df[df[target_column] != 'Yes']
 
     if len(yes_df) > 0:
-        yes_df_downsampled = yes_df.sample(frac=0.25, random_state=42)
+        yes_df_downsampled = yes_df.sample(frac=0.005, random_state=42)
         balanced_df = pd.concat([yes_df_downsampled, other_df])
         print(f"Original 'Yes' count: {len(yes_df)}. Down-sampled 'Yes' count: {len(yes_df_downsampled)}")
         print(f"Total samples before balancing: {len(df)}. After balancing: {len(balanced_df)}")
@@ -149,8 +149,7 @@ def setup_training_for_task(json_data, task_name):
     model = AutoModelForCausalLM.from_pretrained(
         model_name, 
         trust_remote_code=True,
-        device_map={"": "cpu"}  # This forces the model to load on CPU, change as needed
-        #device_map="auto"  # This automatically handles device placement
+        device_map="auto"  # This automatically handles device placement
         )
     
     def tokenize_function(examples):
@@ -168,7 +167,7 @@ def setup_training_for_task(json_data, task_name):
     training_args = TrainingArguments(
         output_dir=output_directory,
         num_train_epochs=1,
-        per_device_train_batch_size=8,
+        per_device_train_batch_size=2,
         gradient_accumulation_steps=8,
         learning_rate=5e-6,
         save_steps=10_000,
