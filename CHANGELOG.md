@@ -1,3 +1,5 @@
+## [0.1.6](https://github.com/devendew/pedagogical-assessment/compare/v0.1.5...v0.1.6) (2025-09-21)
+
 ## [0.1.5](https://github.com/devendew/pedagogical-assessment/compare/v0.1.4...v0.1.5) (2025-09-19)
 
 ## [0.1.4](https://github.com/devendew/pedagogical-assessment/compare/v0.1.3...v0.1.4) (2025-09-19)
