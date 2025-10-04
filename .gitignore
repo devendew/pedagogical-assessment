@@ -1,2 +1,3 @@
 devendra/results
-devendra/best_model
+devendra/best_model/mistake-identification/*.model
+devendra/best_model/mistake-identification/*.safetensors
