@@ -150,13 +150,13 @@
       "Sonnet": {
         "response": "Great job on working through that example! Now, can you apply that same logic to Sandy and Joey's weight loss situation?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "GPT4": {
         "response": "That's correct, Steven! Now, if you apply the same logic to Sandy and Joey's situation, you'll find the correct answer.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       }
     }
@@ -222,25 +222,25 @@
       "Llama31405B": {
         "response": "Now that you know the correct number of shoplifters is 7, let's revisit your original work and see how that changes the rest of your calculations, okay?",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "No"
         }
       },
       "Mistral": {
         "response": "\"Great, now you can re-calculate the number of customers kicked out for violence using the correct number of shoplifters.\"",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Sonnet": {
         "response": "Great job recognizing your mistake and following the correct steps to find the number of shoplifters – now, can you continue with the rest of the problem using this new information?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Expert": {
         "response": "So, how many were kicked out for violence?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Gemini": {
@@ -252,7 +252,7 @@
       "Llama318B": {
         "response": "Now that we know there are 7 shoplifters, let's continue solving the problem using this new information.",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "No"
         }
       },
       "GPT4": {
@@ -300,7 +300,7 @@
       "Llama318B": {
         "response": "You're correct that the 5 in the hundreds column should round up, but since it's already greater than 5 and in the 150s, it should actually round up to 1600, which is the next 100.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Mistral": {
@@ -336,13 +336,13 @@
       "Llama318B": {
         "response": "Let's go back and correctly find their share of the tickets first, not the total cost of the tickets.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Gemini": {
         "response": "That's great you caught that! Now, let's calculate the total cost of the food using the correct amount.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Llama31405B": {
@@ -360,7 +360,7 @@
       "Expert": {
         "response": "They means the group rather than individual shares so the would you take the 4.50 from 6.75 or the 20.25",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Mistral": {
@@ -486,7 +486,7 @@
       "Gemini": {
         "response": "You're absolutely right, 108 multiplied by 10 is 1080, not 120. Let's take a look at where we might have gone wrong in the calculation.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       }
     }
@@ -516,19 +516,19 @@
       "GPT4": {
         "response": "That's correct! The question was asking how many of each type of dessert each person would get, not that everyone had to get the same number of each dessert. So, each person will get 6 cookies, 9 pieces of candy, and 3 brownies. Good job!",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Sonnet": {
         "response": "Great job on calculating each dessert separately - that's actually the correct approach here, as the question asks for each person to get the same number of each type of dessert, not the same total number of desserts.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Gemini": {
         "response": "You're right, that would mean everyone doesn't get the same amount of *each* type of dessert!  Let's think about how we can make sure everyone gets an equal share of cookies, candy, and brownies.",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Mistral": {
@@ -672,7 +672,7 @@
       "Expert": {
         "response": "Okay, so subtracting number of blue shoe from all shoes gives you 710 pairs.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "GPT4": {
@@ -720,7 +720,7 @@
       "Expert": {
         "response": "If i purchase a bicycle worth $100 and have a coupon of $24 and rewards worth 6$, how much do i actually pay for it?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama31405B": {
@@ -774,25 +774,25 @@
       "Expert": {
         "response": "I'm going to help you, because the question is badly-phrased. You've told me that John spent 160 and we know he has 5 left, so that makes 165.  $15 multiplied by something = 165.  So what is 165/15?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Mistral": {
         "response": "It seems like you've made an assumption that John spent all his money from selling the Lego sets, but remember, he had $5 left after buying the video games.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Llama31405B": {
         "response": "It looks like we still have a misunderstanding - since John had $5 left after buying the video games, we can set up the equation 15x - 160 = 5, where x is the number of Lego sets he sold, to find out how many sets he actually sold.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Llama318B": {
         "response": "However, it seems like there was a small oversight in using algebra; since x represents the number of lego sets John sold, then 13 - x represents the number he still has, which would be 13 - (195/15).",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Phi3": {
@@ -804,19 +804,19 @@
       "Sonnet": {
         "response": "I appreciate your effort to use algebra, but let's take a step back and think about what information we know for certain from the question.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "GPT4": {
         "response": "Actually, let's reconsider that equation. The total amount he made, $195, isn't accurate because he didn't sell all of his Lego sets. We know that he spent $160 on video games and had $5 left, so he must have made $165 total from selling his sets. Let's adjust the equation to x * $15 = $165 and solve for x again.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Gemini": {
         "response": "You're very close, but remember that we know John had $5 left over *after* buying the video games, so he actually had $160 + $5 = $165 to spend on the Lego sets.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       }
     }
@@ -882,7 +882,7 @@
       "Gemini": {
         "response": "You've done a great job of calculating the total crates sold, but remember that Sam also sold crates over the weekend!",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama318B": {
@@ -894,7 +894,7 @@
       "Mistral": {
         "response": "It seems you've accidentally counted the weekend sales twice; let's re-evaluate the total crates sold from Tuesday to Thursday and then add the weekend sales once.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama31405B": {
@@ -906,13 +906,13 @@
       "Sonnet": {
         "response": "Your approach is generally correct, but I noticed a small error in your calculation for Tuesday to Thursday sales - let's double-check those numbers together.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Phi3": {
         "response": "Great job! To further enhance your understanding, let's explore another example together.",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       },
       "GPT4": {
@@ -924,7 +924,7 @@
       "Expert": {
         "response": "It looks like you added 20 crates twice",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       }
     }
@@ -936,7 +936,7 @@
       "Expert": {
         "response": "There is 12 bedroom windows + 4 in house 1 and 4 in house 2 so that equals?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Mistral": {
@@ -966,7 +966,7 @@
       "Llama31405B": {
         "response": "I see that you caught the mistake in your original solution and corrected it beautifully, realizing that the 12 windows in the bedrooms should be added to the 8 additional windows, not 6 + 8 as you initially thought, and I'm proud of you for persisting and arriving at the correct total of 40 windows.",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "Yes"
         }
       },
       "GPT4": {
@@ -996,13 +996,13 @@
       "GPT4": {
         "response": "That's absolutely correct! You've understood the concept well now - just remember that the interest rate should be applied per year, not per month, so the correct calculation for the total interest would be 3650 x 0.1 x (5/12), and then proceed as you did.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Llama318B": {
         "response": "You've made a great correction and are now on the right track - let's try plugging the numbers into the formula A = P(1 + rt) to see if that helps simplify things, where A is the total amount to be paid back, P is the principal amount ($3650), r is the interest rate (10%), and t is the time (5 months).",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "Yes"
         }
       },
       "Mistral": {
@@ -1050,7 +1050,7 @@
       "Expert": {
         "response": "Here, let's count it in 1 hour intervals. Let's start at 7:30pm and increase the hour by 1 until we get to or pass 11:00pm. Could you try that?",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "Yes"
         }
       },
       "GPT4": {
@@ -1092,7 +1092,7 @@
       "Novice": {
         "response": "That's a good try! Plus 1 point for you.",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       }
     }
@@ -1176,7 +1176,7 @@
       "Expert": {
         "response": "When you added 4 to 9, what did the total relate to?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama31405B": {
@@ -1248,7 +1248,7 @@
       "Mistral": {
         "response": "Let's consider the number of video games Brian has after losing 5, which is 15, and then calculate 3 times that amount.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama31405B": {
@@ -1278,7 +1278,7 @@
       "Llama318B": {
         "response": "That's a great job identifying the number of red cards that meet the criteria, but I'd like to take a closer look at how you calculated the probability.",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "No"
         }
       },
       "Expert": {
@@ -1326,7 +1326,7 @@
       "Mistral": {
         "response": "\"Great correction! Now, how many crates was Sam off from his target for the week?\"",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Phi3": {
@@ -1362,7 +1362,7 @@
       "Sonnet": {
         "response": "Great job on adding up the weekday and weekend sales correctly, but let's double-check if we've included all the crates Sam sold during the entire week.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       }
     }
@@ -1434,7 +1434,7 @@
       "Expert": {
         "response": "If there are 710 pairs of shoes that are either green or purple, and there is an equal number of green and purple, is there an easy way to figure out how many pairs of each color?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Mistral": {
@@ -1476,7 +1476,7 @@
       "Sonnet": {
         "response": "I appreciate your detailed explanation, but let's take a closer look at your equation 2x + 540 = 710, as there might be a small misunderstanding here.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       }
     }
@@ -1656,13 +1656,13 @@
       "GPT4": {
         "response": "Actually, you've made a little mistake there. If the number of people wearing horizontal stripes is 28, and we know that a total of 33 people are wearing stripes, then the number of people wearing vertical stripes would be 33 - 28, which equals 5, not 12. Don't worry, though - everyone makes mistakes, and they're a great way to learn!",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Mistral": {
         "response": "It seems like you're still adding the number of people wearing checkered shirts to the number of people wearing horizontal stripes to find the number of people wearing vertical stripes; let's try subtracting the number of people wearing horizontal stripes from the total number of people wearing stripes instead.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Expert": {
@@ -1674,31 +1674,31 @@
       "Gemini": {
         "response": "That's great!  You caught your own mistake and corrected it, which is an important skill in math.",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Phi3": {
         "response": "To find the sum of two numbers, simply add them together using the addition operation.",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama31405B": {
         "response": "It seems like you realized that 33-28 is actually 5, not 12, but then you still concluded that the number of people wearing vertical stripes is 7+5, which doesn't make sense in this context - can you think about what should be added to 5 to find the correct answer?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Llama318B": {
         "response": "You're actually correct, but I think there's a mistake earlier on - you initially correctly found that x = 5 people are wearing horizontal stripes, but then when you subtracted 28 from 33, you got 5, not 12.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Sonnet": {
         "response": "I appreciate you walking through your thought process, but let's take another look at the number of people wearing vertical stripes - remember, we need to account for all 33 people wearing stripes, not just add the checkered shirt wearers to the horizontal stripe wearers.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       }
     }
@@ -1710,7 +1710,7 @@
       "Expert": {
         "response": "why did you multiply 6 with 2 to get the slices of pizza required?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Gemini": {
@@ -1740,7 +1740,7 @@
       "Llama31405B": {
         "response": "I'd like to focus on one specific step in your solution: you mentioned that each person needs 2 slices of pizza, but the problem doesn't specify that - can you think of a more accurate way to determine the number of slices of pizza Zoe needs to buy?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Mistral": {
@@ -1770,7 +1770,7 @@
       "Llama318B": {
         "response": "Seth, I see what you're trying to do with the sodas, but the correct calculation should be that John drinks 4 glasses of water on each weekend day, so in total he drinks 4 x 2 = 8 glasses of water, and also, he drinks a total of 2 sodas over the weekend, not adding those to the total glasses of water, just letting me know he has them.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Expert": {
@@ -1794,7 +1794,7 @@
       "GPT4": {
         "response": "Seth, you've done a great job explaining your process, but remember that the soda John drinks on the weekends doesn't count as a glass of water, so on those days he only drinks 3 glasses of water, not 4.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Llama31405B": {
@@ -1818,25 +1818,25 @@
       "Llama318B": {
         "response": "To earn the remaining $60 to buy the book set after already earning $90, we need to calculate how many square feet she needs to mow to earn $60, then add it to the 900 square feet she has already mowed.",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "No"
         }
       },
       "Llama31405B": {
         "response": "It looks like you're close, but let's recalculate how much more LaKeisha needs to earn and how many square feet she needs to mow to reach her goal, considering she's already earned $90 and needs $60 more.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Expert": {
         "response": "if she earns $0.1 for each square foot of lawn then how many square feet of lawn does she need to mow to earn the remaining $60?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Sonnet": {
         "response": "Great progress, but let's double-check the calculation for the remaining square feet LaKeisha needs to mow, considering she's already earned $90 and only needs $60 more.",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "No"
         }
       },
       "Phi3": {
@@ -1848,19 +1848,19 @@
       "GPT4": {
         "response": "Actually, you're almost there but remember to apply the rate of $.10 per square foot to the remaining $60. So, she needs to mow $60/0.10 = 600 square feet more.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Gemini": {
         "response": "You're very close!  Remember, she only needs to earn an additional $60, not the full $150.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Mistral": {
         "response": "It seems like there might be a misunderstanding in your calculation; let's re-evaluate how much more money LaKeisha needs to earn and then how many more square feet she needs to mow for that amount.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       }
     }
@@ -1884,7 +1884,7 @@
       "Sonnet": {
         "response": "I appreciate your detailed explanation, but let's take a closer look at when Robie gave away the bags, as that's a key part of the problem we need to be careful about.",
         "annotation": {
-          "Mistake_Identification": "To some extent"
+          "Mistake_Identification": "Yes"
         }
       },
       "Mistral": {
@@ -1998,7 +1998,7 @@
       "GPT4": {
         "response": "That's okay, everyone makes mistakes. You were correct in your initial calculations, but there was a little mix-up in the final step. Remember, when Elliott finished his jog, he still had 2,000 steps left to reach his goal. So, if we subtract the total steps he had taken before the jog (which is 6,000 steps) from the total steps minus the steps left (which is 10,000 - 2,000 = 8,000 steps), we find that he took 8,000 - 6,000 = 2,000 steps during his jog. Keep practicing, you're doing great!",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "Yes"
         }
       },
       "Llama31405B": {
@@ -2010,7 +2010,7 @@
       "Sonnet": {
         "response": "Great observation about the 2,000 steps left, but let's think carefully about how that fits into our calculation of Elliott's jog steps.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Expert": {
@@ -2076,7 +2076,7 @@
       "Expert": {
         "response": "Let's see.  If I had 52 apples, and half were green and half were red, how many apples would I have?",
         "annotation": {
-          "Mistake_Identification": "No"
+          "Mistake_Identification": "Yes"
         }
       }
     }
@@ -2166,7 +2166,7 @@
       "Expert": {
         "response": "No, try again",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "Sonnet": {
@@ -2202,7 +2202,7 @@
       "Gemini": {
         "response": "That's great! You figured out that she won a total of 5 tickets from the games, so now let's think about how many she won from each game.",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "No"
         }
       },
       "Phi3": {
@@ -2220,7 +2220,7 @@
       "Expert": {
         "response": "What is 5 divided by 5?",
         "annotation": {
-          "Mistake_Identification": "Yes"
+          "Mistake_Identification": "To some extent"
         }
       },
       "GPT4": {
