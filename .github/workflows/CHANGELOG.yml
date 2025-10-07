@@ -34,7 +34,7 @@ jobs:
         with:
           body: ${{ steps.changelog.outputs.changelog }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
       - name: Update CHANGELOG.md file
         run: |
