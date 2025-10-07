@@ -2,31 +2,45 @@ name: Generate Changelog
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - "main"
     tags:
-      - "v*"   # e.g., v1.0.0
+      - "v*"   # runs only when you create a tag like v1.0.0
 
 permissions:
   contents: write
-  pull-requests: read
 
 jobs:
   changelog:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # required so the action can read all commits/tags
+          fetch-depth: 0
 
-      - name: Generate CHANGELOG.md
-        uses: TriPSs/conventional-changelog-action@v5
+      - name: Generate changelog
+        id: changelog
+        uses: mikepenz/release-changelog-builder-action@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-file: CHANGELOG.md
-          preset: conventionalcommits
-          tag-prefix: v
-          release-count: 0          # include all releases in the file
-          skip-on-empty: false      # still commit if there are no new changes
-          commit-message: "chore(changelog): update CHANGELOG.md"
-          # create-release: true     # uncomment if you also want a GitHub Release
+          configuration: ".github/changelog-config.json"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create or update GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          body: ${{ steps.changelog.outputs.changelog }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update CHANGELOG.md file
+        run: |
+          echo "## ${{ github.ref_name }}" >> CHANGELOG.md
+          echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          git commit -m "chore(changelog): update for ${{ github.ref_name }}" || echo "No changes to commit"
+          git push
