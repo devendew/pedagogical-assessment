@@ -2,6 +2,8 @@ name: Generate Changelog
 
 on:
   push:
+    branches:
+      - "main"
     tags:
       - "v*"   # runs only when you create a tag like v1.0.0
 
