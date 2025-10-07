@@ -52,7 +52,7 @@ idna==3.10
 ipywidgets==8.1.7
 isoduration==20.11.0
 # jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
-Jinja2==3.1.4
+Jinja2==3.1.6
 jiter==0.11.0
 joblib==1.5.2
 json5==0.12.1
