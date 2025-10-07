@@ -1,3 +1,7 @@
 devendra/mistake_identification/results/
 devendra/mistake_identification/best_model/mistake-identification/
 # devendra/mistake_identification/best_model/mistake-identification/*.safetensors
+nishat/mistake_identification/results/
+nishat/mistake_identification/best_model/mistake-identification/
+nishat/providing_guidance/results/
+nishat/providing_guidance/best_model/mistake-identification/
