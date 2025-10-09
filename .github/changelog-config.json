@@ -10,14 +10,19 @@
         {
             "title": "🐛 Fixes",
             "labels": [
-                "bug",
-                "fix"
+                "fix",
+                "bug"
             ]
+        },
+        {
+            "title": "🧹 Other changes",
+            "labels": []
         }
     ],
     "pr_template": "- ${{TITLE}} (#${{NUMBER}})",
     "commit_template": "- ${{MESSAGE}}",
     "include_commits": true,
-    "include_prs": true,
-    "sort": "title",
+    "tag_resolver": {
+        "method": "semver"
+    }
 }
