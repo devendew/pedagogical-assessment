@@ -1,0 +1,21 @@
+# Requirements for FREE LLM Pipeline
+
+# Option 1: Ollama (Local - Completely Free)
+# No Python package needed - Install Ollama from: https://ollama.ai
+# Then: ollama pull llama3.1:8b
+
+# Option 2: Google Gemini (Free Tier: 15 requests/min)
+google-generativeai>=0.3.0
+
+# Option 3: Groq (Free Tier: Fast Inference)
+groq>=0.4.0
+
+# Option 4: HuggingFace Inference API (Free Tier Available)
+# No special package needed - uses requests
+
+# Common dependencies
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Standard library (already included)
+# json, re, pathlib, random, time, typing

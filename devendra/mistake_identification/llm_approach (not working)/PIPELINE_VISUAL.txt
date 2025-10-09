@@ -1,0 +1,221 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    PEDAGOGICAL ASSESSMENT PIPELINE                             ║
+║                           Visual Overview                                      ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                           INPUT DATA                                          │
+│  📁 trainset.json (from data/)                                               │
+│  - ~1000 conversations                                                        │
+│  - Student mistakes in math problems                                          │
+│  - Tutor responses from 8 different tutors/LLMs                              │
+│  - Human annotations (Mistake_Identification, Providing_Guidance)            │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      ↓
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                      STEP 1: SOLVE MATH PROBLEMS                             │
+│  🧮 MathProblemSolver                                                        │
+│  ┌────────────────────────────────────────────────────────────┐             │
+│  │ For each conversation:                                      │             │
+│  │ 1. Extract math problem from conversation                   │             │
+│  │ 2. Call LLM (GPT-4o / Claude 3.5) to solve                │             │
+│  │ 3. Get answer + solution steps + explanation                │             │
+│  │ 4. Add as "answer_key" to conversation                     │             │
+│  └────────────────────────────────────────────────────────────┘             │
+│                                                                               │
+│  📤 Output: trainset_with_answers.json                                       │
+│     ├─ Original conversation data                                            │
+│     ├─ math_problem: "Tyson decided to make..."                             │
+│     └─ answer_key:                                                           │
+│        ├─ answer: "50"                                                       │
+│        ├─ solution_steps: "Step 1: Calculate..."                            │
+│        └─ explanation: "We need to find..."                                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      ↓
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                 STEP 2: EVALUATE TUTOR RESPONSES                             │
+│  🎯 MistakeIdentificationEvaluator                                           │
+│  ┌────────────────────────────────────────────────────────────┐             │
+│  │ For each tutor response (GPT-4, Expert, Llama, etc):       │             │
+│  │ 1. Analyze conversation + correct answer + tutor response  │             │
+│  │ 2. Evaluate mistake identification quality                  │             │
+│  │    → "Yes" / "No" / "To some extent"                       │             │
+│  │ 3. Evaluate guidance quality                                │             │
+│  │    → "Yes" / "No" / "To some extent"                       │             │
+│  │ 4. Compare with human annotation                            │             │
+│  │ 5. Generate reasoning + confidence score                    │             │
+│  └────────────────────────────────────────────────────────────┘             │
+│                                                                               │
+│  📤 Output: trainset_fully_evaluated.json                                    │
+│     ├─ Everything from Step 1                                                │
+│     └─ tutor_responses:                                                      │
+│        └─ [each tutor]:                                                      │
+│           ├─ response: "Great, you've correctly..."                         │
+│           ├─ annotation: {human labels}                                     │
+│           └─ evaluation:                                                     │
+│              ├─ predicted_mistake_identification: "Yes"                     │
+│              ├─ predicted_providing_guidance: "Yes"                         │
+│              ├─ reasoning: "The tutor correctly..."                         │
+│              ├─ confidence: 0.85                                            │
+│              └─ agrees_with_human: true                                     │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      ↓
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                    STEP 3: GENERATE STATISTICS                               │
+│  📊 Statistical Analysis                                                      │
+│  ┌────────────────────────────────────────────────────────────┐             │
+│  │ Analyze evaluated data:                                     │             │
+│  │ • Total conversations processed                             │             │
+│  │ • Problems with answers                                     │             │
+│  │ • Total tutor responses evaluated                           │             │
+│  │ • Agreement rate with human annotations                     │             │
+│  │ • Distribution of mistake identification categories         │             │
+│  │ • Distribution of providing guidance categories             │             │
+│  └────────────────────────────────────────────────────────────┘             │
+│                                                                               │
+│  📤 Output: dataset_statistics.json                                          │
+│     ├─ total_conversations: 1000                                             │
+│     ├─ problems_with_answers: 950                                            │
+│     ├─ total_responses: 7600                                                 │
+│     ├─ evaluations_complete: 7600                                            │
+│     ├─ agreement_with_human:                                                 │
+│     │  ├─ yes: 6840 (90%)                                                   │
+│     │  └─ no: 760 (10%)                                                     │
+│     ├─ mistake_identification_distribution:                                  │
+│     │  ├─ Yes: 5320                                                         │
+│     │  ├─ No: 1140                                                          │
+│     │  └─ To some extent: 1140                                              │
+│     └─ providing_guidance_distribution:                                      │
+│        ├─ Yes: 5700                                                          │
+│        ├─ No: 912                                                            │
+│        └─ To some extent: 988                                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      ↓
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                  STEP 4: CREATE TRAIN/VAL/TEST SPLITS                        │
+│  📂 Data Splitting                                                            │
+│  ┌────────────────────────────────────────────────────────────┐             │
+│  │ Split evaluated data:                                       │             │
+│  │ 1. Shuffle with seed (reproducible)                         │             │
+│  │ 2. Split 70% / 15% / 15%                                   │             │
+│  │ 3. Save to separate files                                   │             │
+│  └────────────────────────────────────────────────────────────┘             │
+│                                                                               │
+│  📤 Outputs:                                                                  │
+│     ├─ train_split.json       (700 conversations, 70%)                      │
+│     ├─ validation_split.json  (150 conversations, 15%)                      │
+│     └─ test_split.json        (150 conversations, 15%)                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      ↓
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                         READY FOR MODEL TRAINING!                              ║
+║                                                                                ║
+║  ✅ Math problems solved with correct answers                                 ║
+║  ✅ All tutor responses evaluated                                             ║
+║  ✅ Quality predictions for mistake identification                            ║
+║  ✅ Quality predictions for providing guidance                                ║
+║  ✅ Train/validation/test splits created                                      ║
+║  ✅ Comprehensive statistics generated                                        ║
+║                                                                                ║
+║  📊 Use Cases:                                                                 ║
+║  • Train ML models to predict mistake identification                          ║
+║  • Train ML models to predict guidance quality                                ║
+║  • Analyze which tutors perform best                                          ║
+║  • Compare LLM vs Expert vs Novice tutors                                     ║
+║  • Understand patterns in pedagogical interactions                            ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                            USAGE EXAMPLES                                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┌─ Quick Test (5 samples) ────────────────────────────────────────────────────┐
+│ $ python test_pipeline.py                                                    │
+│                                                                               │
+│ Time: ~3 minutes                                                              │
+│ Cost: ~$1-2                                                                   │
+│ Output: test_output/                                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌─ Process 100 Samples ────────────────────────────────────────────────────────┐
+│ $ python pedagogical_assessment_pipeline.py \                               │
+│     --limit 100 \                                                            │
+│     --rate-limit-delay 2.0                                                   │
+│                                                                               │
+│ Time: ~30-40 minutes                                                          │
+│ Cost: ~$25-30                                                                 │
+│ Output: output/                                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌─ Full Dataset (~1000 samples) ───────────────────────────────────────────────┐
+│ $ python pedagogical_assessment_pipeline.py \                               │
+│     --rate-limit-delay 2.0 \                                                 │
+│     --output-dir full_output                                                 │
+│                                                                               │
+│ Time: Several hours                                                           │
+│ Cost: ~$250-300                                                               │
+│ Output: full_output/                                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌─ Use Claude Instead of GPT ──────────────────────────────────────────────────┐
+│ $ export ANTHROPIC_API_KEY='your-key'                                       │
+│ $ python pedagogical_assessment_pipeline.py \                               │
+│     --provider anthropic \                                                   │
+│     --solver-model claude-3-5-sonnet-20241022 \                             │
+│     --evaluator-model claude-3-5-sonnet-20241022 \                          │
+│     --limit 10                                                               │
+│                                                                               │
+│ Time: ~5 minutes                                                              │
+│ Cost: ~$2-3                                                                   │
+│ Output: output/                                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                          KEY FEATURES                                        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+✅ Automatic Math Problem Extraction
+✅ State-of-the-art LLM Solving (GPT-4o / Claude 3.5)
+✅ Detailed Solution Steps
+✅ Comprehensive Response Evaluation
+✅ Confidence Scores & Reasoning
+✅ Human Annotation Comparison
+✅ Statistical Analysis
+✅ Ready-to-use Train/Val/Test Splits
+✅ Progress Bars & Error Handling
+✅ Rate Limiting for Cost Control
+✅ Incremental Processing
+✅ Multiple LLM Provider Support
+✅ Command-line Interface
+✅ Jupyter Notebook Interface
+✅ Comprehensive Documentation
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                         GET STARTED NOW!                                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Step 1: Setup
+  $ bash setup.sh
+
+Step 2: Set API Key
+  $ export OPENAI_API_KEY='your-key-here'
+
+Step 3: Test
+  $ python test_pipeline.py
+
+Step 4: Review
+  $ cat test_output/dataset_statistics.json | python -m json.tool
+
+Step 5: Scale Up
+  $ python pedagogical_assessment_pipeline.py --limit 100
+
+For detailed documentation, see:
+  • IMPLEMENTATION_SUMMARY.md
+  • GETTING_STARTED.md
+  • README_PIPELINE.md
+  • PROJECT_STRUCTURE.md
+
+Good luck! 🚀
