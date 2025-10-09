@@ -25,6 +25,49 @@ jobs:
           fetch-depth: 0
 
       # ------------------------------
+      # 1.1 Debug Steps
+      # ------------------------------
+      # Add these steps before the "Generate changelog" step in your existing job
+      - name: Debug: fetch tags & show recent tags/commits
+        run: |
+          git fetch --tags
+          echo "==== tags (most recent 10) ===="
+          git tag --sort=-creatordate | sed -n '1,10p' || true
+          echo ""
+          echo "==== last 50 commits ===="
+          git log --oneline -n 50 || true
+
+      - name: Debug: show PR numbers referenced in recent commits
+        run: |
+          echo "PR numbers found in recent commits (grep '#<num>'):"
+          git log --oneline -n 200 | grep -Eo '#[0-9]+' | sort -u || echo "No PR numbers found in recent commits"
+
+      - name: Debug: install jq (for pretty API output)
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y jq
+        shell: bash
+
+      - name: Debug: list last 100 closed PRs targeting main (shows merged_at)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "==== last 100 closed PRs targeting main (number, merged_at, title) ===="
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls?state=closed&base=main&per_page=100" \
+            | jq -r '.[] | "\(.number) \(.merged_at) \(.title)"' || true
+
+      - name: Debug: show changelog config file
+        run: |
+          echo "==== .github/changelog-config.json content (if exists) ===="
+          if [ -f .github/changelog-config.json ]; then
+            cat .github/changelog-config.json
+          else
+            echo "[not found]"
+          fi
+
+
+      # ------------------------------
       # 2. Generate changelog (from PRs + commits)
       # ------------------------------
       - name: Generate changelog
