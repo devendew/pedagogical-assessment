@@ -1,0 +1,61 @@
+
+================================================================================
+MISTAKE IDENTIFICATION EVALUATION - SUMMARY REPORT
+================================================================================
+
+1. DATASET INFORMATION
+   - Total Conversations Processed: 10
+   - Total Evaluations: 84
+   - Sources Evaluated: Expert, GPT4, Gemini, Llama31405B, Llama318B, Mistral, Novice, Phi3, Sonnet
+
+2. OVERALL PERFORMANCE
+   - Accuracy: 0.0714 (7.14%)
+   - F1 Score (Macro): 0.0444
+   - F1 Score (Weighted): 0.0111
+   - Agreement Rate: 7.14%
+
+3. PER-CLASS PERFORMANCE (F1 Scores)
+   - Yes: 0.0000
+   - To some extent: 0.1333
+   - No: 0.0000
+
+4. LABEL DISTRIBUTION
+   Actual:
+   - Yes: 67
+   - To some extent: 7
+   - No: 10
+
+   Predicted:
+   - Yes: 0
+   - To some extent: 83
+   - No: 1
+
+5. TOP PERFORMING SOURCES (by Accuracy)
+   7. Novice: 0.5000 (4 samples)
+   1. Expert: 0.2000 (10 samples)
+   9. Sonnet: 0.2000 (10 samples)
+   2. GPT4: 0.0000 (10 samples)
+   3. Gemini: 0.0000 (10 samples)
+
+6. KEY INSIGHTS
+   - Total Correct Predictions: 6
+   - Total Incorrect Predictions: 78
+   - Most Common Error: ('Yes', 'To some extent')
+
+7. OUTPUT FILES GENERATED
+   - trainset_with_answers.json
+   - trainset_with_answers_and_evaluations.json
+   - confusion_matrix_overall.png
+   - confusion_matrices_by_source.png
+   - performance_analysis.png
+   - performance_metrics_by_source.csv
+   - error_analysis.csv
+   - summary_report.txt
+
+8. MODELS USED
+   - Math Solver: Mistral Mathstral-7B-v0.1
+   - Mistake Evaluator: Meta Llama-3.1-8B-Instruct
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
