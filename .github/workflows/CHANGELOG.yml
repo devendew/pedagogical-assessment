@@ -16,33 +16,50 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ------------------------------
+      # 1. Checkout full repo history
+      # ------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # ------------------------------
+      # 2. Generate changelog (from PRs + commits)
+      # ------------------------------
       - name: Generate changelog
         id: changelog
         uses: mikepenz/release-changelog-builder-action@v4
         with:
           configuration: ".github/changelog-config.json"
+          fromTag: ""  # ensures first tag works correctly
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # ------------------------------
+      # 3. Create or update GitHub Release
+      # ------------------------------
       - name: Create or update GitHub Release
-        if: startsWith(github.ref, 'refs/tags/')   # ✅ only on tags
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          name: Release ${{ github.ref_name }}
           body: ${{ steps.changelog.outputs.changelog }}
+          draft: false
+          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
+      # ------------------------------
+      # 4. Update local CHANGELOG.md
+      # ------------------------------
       - name: Update CHANGELOG.md file
         run: |
           echo "## ${{ github.ref_name }}" >> CHANGELOG.md
           echo "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
+          echo "" >> CHANGELOG.md
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add CHANGELOG.md
           git commit -m "chore(changelog): update for ${{ github.ref_name }}" || echo "No changes to commit"
-          git push
+          git push origin HEAD:main
