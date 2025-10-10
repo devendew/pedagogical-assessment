@@ -1,0 +1,2477 @@
+conversation_id,source,actual_label,predicted_label
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Sonnet,Yes,No
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Llama318B,Yes,No
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Llama31405B,Yes,Yes
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,GPT4,Yes,No
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Mistral,Yes,No
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Expert,Yes,No
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Gemini,Yes,No
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Phi3,No,No
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,GPT4,Yes,Yes
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Sonnet,To some extent,No
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Expert,Yes,No
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Llama318B,Yes,Yes
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Mistral,Yes,No
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Llama31405B,Yes,No
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Gemini,Yes,No
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Phi3,No,No
+258053434,Sonnet,Yes,No
+258053434,Novice,Yes,No
+258053434,Llama31405B,Yes,Yes
+258053434,GPT4,Yes,Yes
+258053434,Gemini,Yes,No
+258053434,Mistral,Yes,No
+258053434,Expert,Yes,No
+258053434,Llama318B,Yes,Yes
+258053434,Phi3,Yes,Yes
+429563766,Llama31405B,Yes,Yes
+429563766,Sonnet,Yes,Yes
+429563766,Llama318B,No,No
+429563766,Novice,Yes,No
+429563766,Mistral,No,No
+429563766,Expert,Yes,To some extent
+429563766,GPT4,Yes,Yes
+429563766,Phi3,Yes,Yes
+429563766,Gemini,No,No
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Gemini,Yes,No
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,GPT4,Yes,Yes
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Llama31405B,Yes,To some extent
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Mistral,Yes,No
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Llama318B,Yes,No
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Phi3,No,No
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Expert,To some extent,No
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Sonnet,Yes,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Sonnet,Yes,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Mistral,Yes,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,GPT4,Yes,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Phi3,No,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Gemini,Yes,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Expert,Yes,No
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Llama318B,Yes,Yes
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Llama31405B,Yes,Yes
+416999530,Mistral,To some extent,No
+416999530,Phi3,Yes,Yes
+416999530,Expert,Yes,No
+416999530,Gemini,Yes,No
+416999530,Novice,To some extent,No
+416999530,Llama318B,Yes,Yes
+416999530,Sonnet,Yes,No
+416999530,GPT4,Yes,Yes
+416999530,Llama31405B,Yes,No
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Sonnet,Yes,Yes
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Mistral,Yes,No
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Gemini,Yes,No
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Llama31405B,Yes,No
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,GPT4,Yes,Yes
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Phi3,No,No
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Expert,Yes,No
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Llama318B,Yes,No
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Phi3,No,No
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Expert,To some extent,No
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Llama318B,Yes,Yes
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Mistral,Yes,No
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Sonnet,Yes,To some extent
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Llama31405B,Yes,To some extent
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Gemini,Yes,Yes
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,GPT4,Yes,No
+292861665_1,Sonnet,To some extent,Yes
+292861665_1,Phi3,Yes,Yes
+292861665_1,Llama31405B,Yes,To some extent
+292861665_1,Novice,To some extent,No
+292861665_1,Llama318B,Yes,Yes
+292861665_1,Mistral,Yes,Yes
+292861665_1,GPT4,Yes,No
+292861665_1,Expert,No,No
+292861665_1,Gemini,Yes,No
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Expert,To some extent,No
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Llama318B,Yes,Yes
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Gemini,Yes,Yes
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Phi3,No,No
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Mistral,Yes,Yes
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,GPT4,Yes,Yes
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Llama31405B,Yes,Yes
+3371-1a544434-fb2c-415c-ba29-658642b6d1e7,Sonnet,No,Yes
+2672-c8c14096-d003-49fc-8aae-371660962a45,Expert,Yes,No
+2672-c8c14096-d003-49fc-8aae-371660962a45,Gemini,Yes,No
+2672-c8c14096-d003-49fc-8aae-371660962a45,GPT4,Yes,No
+2672-c8c14096-d003-49fc-8aae-371660962a45,Llama318B,Yes,No
+2672-c8c14096-d003-49fc-8aae-371660962a45,Phi3,No,No
+2672-c8c14096-d003-49fc-8aae-371660962a45,Mistral,Yes,No
+2672-c8c14096-d003-49fc-8aae-371660962a45,Llama31405B,Yes,Yes
+2672-c8c14096-d003-49fc-8aae-371660962a45,Sonnet,Yes,To some extent
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Sonnet,Yes,To some extent
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Llama318B,Yes,To some extent
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Gemini,Yes,No
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,GPT4,No,No
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Llama31405B,Yes,No
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Mistral,No,No
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Expert,Yes,No
+1691-e881a56e-3e20-41f6-a985-f0e3720a8d6b,Phi3,No,No
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,GPT4,Yes,Yes
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Gemini,Yes,No
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Llama31405B,Yes,Yes
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Llama318B,No,Yes
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Mistral,Yes,To some extent
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Phi3,No,No
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Expert,Yes,Yes
+1921-aa2a1875-8a27-425b-b4ce-1b17c887d041,Sonnet,To some extent,No
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Llama318B,Yes,No
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Llama31405B,Yes,Yes
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Expert,To some extent,No
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Sonnet,Yes,To some extent
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Gemini,Yes,No
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Phi3,No,No
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,GPT4,Yes,No
+2932-f970d360-6e6c-4dcb-9b4c-fdd967c9529e,Mistral,Yes,To some extent
+398186338,Mistral,Yes,Yes
+398186338,Sonnet,Yes,To some extent
+398186338,Phi3,Yes,Yes
+398186338,Llama318B,Yes,Yes
+398186338,Novice,Yes,No
+398186338,GPT4,Yes,No
+398186338,Llama31405B,Yes,Yes
+398186338,Expert,Yes,No
+398186338,Gemini,Yes,No
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Phi3,No,No
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Mistral,Yes,No
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Llama31405B,Yes,Yes
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,GPT4,Yes,Yes
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Llama318B,Yes,To some extent
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Gemini,Yes,No
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Sonnet,Yes,No
+2101-7dc9271a-54d5-470e-9008-42238b83b16d,Expert,Yes,To some extent
+401412251,GPT4,Yes,Yes
+401412251,Llama31405B,Yes,To some extent
+401412251,Gemini,Yes,To some extent
+401412251,Mistral,Yes,No
+401412251,Phi3,Yes,To some extent
+401412251,Sonnet,Yes,To some extent
+401412251,Novice,To some extent,No
+401412251,Llama318B,Yes,Yes
+401412251,Expert,Yes,No
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Llama31405B,Yes,Yes
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Expert,Yes,No
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Gemini,Yes,No
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Phi3,No,No
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,GPT4,Yes,Yes
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Mistral,Yes,No
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Sonnet,Yes,To some extent
+2501-49e48d81-b2e9-4ca4-9cbb-26a562b85a63,Llama318B,Yes,No
+429348089,Expert,To some extent,No
+429348089,Novice,To some extent,No
+429348089,Llama318B,Yes,No
+429348089,Phi3,Yes,No
+429348089,Sonnet,Yes,To some extent
+429348089,Llama31405B,Yes,Yes
+429348089,Mistral,Yes,No
+429348089,GPT4,Yes,Yes
+429348089,Gemini,Yes,No
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Sonnet,Yes,To some extent
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,GPT4,Yes,Yes
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Llama318B,Yes,To some extent
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Expert,Yes,No
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Llama31405B,Yes,Yes
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Gemini,To some extent,No
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Mistral,Yes,Yes
+2431-f3fc8f05-81ad-40b9-9af2-8e3b8310d700,Phi3,To some extent,Yes
+292786439,Phi3,Yes,Yes
+292786439,Sonnet,Yes,To some extent
+292786439,Gemini,Yes,No
+292786439,Mistral,Yes,No
+292786439,Llama318B,Yes,To some extent
+292786439,Novice,Yes,No
+292786439,GPT4,Yes,No
+292786439,Llama31405B,Yes,No
+292786439,Expert,Yes,To some extent
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Phi3,No,No
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Expert,Yes,No
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Mistral,Yes,No
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Llama318B,Yes,No
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Gemini,No,No
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,GPT4,Yes,Yes
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Llama31405B,Yes,Yes
+5023-9b71a72e-a63d-4039-8d42-40d2c69a28ff,Sonnet,Yes,No
+410911115,Mistral,Yes,No
+410911115,Gemini,Yes,To some extent
+410911115,Expert,Yes,Yes
+410911115,Sonnet,Yes,Yes
+410911115,Llama31405B,Yes,Yes
+410911115,Llama318B,Yes,Yes
+410911115,Novice,Yes,Yes
+410911115,Phi3,Yes,Yes
+410911115,GPT4,Yes,Yes
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,GPT4,Yes,Yes
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Gemini,Yes,To some extent
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Expert,Yes,To some extent
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Llama318B,Yes,No
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Mistral,Yes,Yes
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Sonnet,Yes,No
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Phi3,Yes,No
+650-a64f6d3d-0455-437c-a636-bf3c53f43d6f,Llama31405B,Yes,No
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Sonnet,Yes,Yes
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Phi3,No,No
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Gemini,No,No
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Llama31405B,Yes,No
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Llama318B,Yes,Yes
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,GPT4,Yes,Yes
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Expert,To some extent,No
+1042-d6c207d3-0fed-48b7-bcf9-915cac7be198,Mistral,Yes,Yes
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Llama31405B,Yes,No
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Sonnet,Yes,To some extent
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,GPT4,Yes,No
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Llama318B,Yes,Yes
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Gemini,Yes,No
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Expert,Yes,No
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Mistral,Yes,No
+3912-5d9b1073-415e-4547-a3e2-b8f516b011e5,Phi3,No,No
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Llama31405B,To some extent,Yes
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Gemini,Yes,No
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Llama318B,Yes,No
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Expert,Yes,No
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Mistral,Yes,No
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,GPT4,Yes,Yes
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Phi3,No,No
+1340-aa89d11e-f7aa-46bd-83bb-88ce9b0a563c,Sonnet,Yes,Yes
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Llama318B,Yes,Yes
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Expert,Yes,No
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,GPT4,Yes,Yes
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Phi3,No,No
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Sonnet,Yes,No
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Llama31405B,To some extent,No
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Mistral,Yes,Yes
+2260-6b718b48-68de-418b-9441-fbdd7fccbd5d,Gemini,Yes,No
+405560345,Gemini,Yes,No
+405560345,Mistral,Yes,No
+405560345,Sonnet,Yes,Yes
+405560345,Phi3,Yes,Yes
+405560345,Llama31405B,Yes,Yes
+405560345,Expert,Yes,Yes
+405560345,Novice,Yes,Yes
+405560345,Llama318B,Yes,No
+405560345,GPT4,Yes,Yes
+429576226,Mistral,Yes,No
+429576226,Novice,Yes,No
+429576226,Expert,Yes,No
+429576226,Llama318B,Yes,Yes
+429576226,GPT4,Yes,Yes
+429576226,Gemini,Yes,No
+429576226,Phi3,No,No
+429576226,Sonnet,Yes,Yes
+429576226,Llama31405B,Yes,Yes
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Expert,Yes,No
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Sonnet,Yes,To some extent
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Gemini,Yes,No
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Llama318B,Yes,No
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,GPT4,Yes,Yes
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Mistral,Yes,No
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Phi3,No,No
+4772-6a340ec8-6707-4903-a640-4c69252b7b0e,Llama31405B,Yes,No
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Sonnet,No,No
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,GPT4,Yes,Yes
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Expert,No,No
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Llama318B,No,No
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Llama31405B,No,No
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Mistral,Yes,Yes
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Gemini,Yes,No
+1851-08ac123e-7b26-49d1-be29-5ddf0f381018,Phi3,No,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Gemini,Yes,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Phi3,No,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Llama31405B,Yes,Yes
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Expert,Yes,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Sonnet,Yes,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Llama318B,No,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,GPT4,Yes,No
+5001-da37bcbf-83a8-46ba-9e29-e1ffb252af33,Mistral,Yes,To some extent
+637780813,Gemini,Yes,To some extent
+637780813,Novice,Yes,Yes
+637780813,GPT4,Yes,Yes
+637780813,Expert,Yes,Yes
+637780813,Sonnet,Yes,No
+637780813,Mistral,Yes,No
+637780813,Phi3,Yes,No
+637780813,Llama318B,Yes,Yes
+637780813,Llama31405B,Yes,Yes
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Sonnet,Yes,No
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Phi3,No,No
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Gemini,Yes,No
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Llama31405B,Yes,No
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Mistral,Yes,To some extent
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,GPT4,Yes,No
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Expert,No,No
+3300-9c560f13-aea7-4a4c-9bfd-98bd813dd7f3,Llama318B,Yes,To some extent
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Llama318B,No,No
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Sonnet,Yes,To some extent
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Gemini,Yes,No
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Phi3,No,No
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Expert,Yes,No
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,GPT4,Yes,No
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Mistral,Yes,Yes
+3661-2ccdff5e-64ca-4a86-9c5e-d9406a11ec66,Llama31405B,Yes,Yes
+398238533,Expert,Yes,No
+398238533,GPT4,Yes,No
+398238533,Novice,No,No
+398238533,Mistral,Yes,No
+398238533,Sonnet,Yes,Yes
+398238533,Llama318B,Yes,Yes
+398238533,Phi3,Yes,Yes
+398238533,Llama31405B,Yes,Yes
+398238533,Gemini,Yes,Yes
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Expert,To some extent,No
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Sonnet,Yes,No
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Mistral,Yes,No
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Llama31405B,Yes,Yes
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Phi3,Yes,No
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Gemini,Yes,No
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,Llama318B,Yes,Yes
+5922-199187ae-9fd4-4bb1-8422-625a2f2af303,GPT4,Yes,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Sonnet,Yes,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Gemini,Yes,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Llama318B,Yes,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,GPT4,Yes,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Expert,Yes,To some extent
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Mistral,Yes,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Phi3,No,No
+3800-01b03aa8-5b0e-48a4-b120-9d0f0998811a,Llama31405B,Yes,Yes
+291628236,Sonnet,No,No
+291628236,Gemini,Yes,To some extent
+291628236,Phi3,Yes,No
+291628236,Llama31405B,Yes,Yes
+291628236,GPT4,Yes,Yes
+291628236,Novice,To some extent,No
+291628236,Mistral,Yes,Yes
+291628236,Llama318B,Yes,No
+291628236,Expert,Yes,No
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Mistral,Yes,No
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Llama318B,Yes,No
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,GPT4,Yes,Yes
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Gemini,Yes,To some extent
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Expert,To some extent,No
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Llama31405B,Yes,Yes
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Sonnet,Yes,Yes
+2822-2a69004c-035b-49b7-aab9-f2ab5fde4321,Phi3,No,Yes
+417363926,GPT4,Yes,Yes
+417363926,Mistral,Yes,Yes
+417363926,Sonnet,Yes,Yes
+417363926,Gemini,Yes,To some extent
+417363926,Phi3,Yes,Yes
+417363926,Novice,Yes,No
+417363926,Llama31405B,Yes,Yes
+417363926,Llama318B,Yes,Yes
+417363926,Expert,Yes,No
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Gemini,Yes,No
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,GPT4,Yes,Yes
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Phi3,No,To some extent
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Expert,To some extent,No
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Sonnet,To some extent,No
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Llama31405B,Yes,No
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Mistral,To some extent,No
+1901-3c9871d5-d06f-4c34-ae73-7894113994be,Llama318B,Yes,No
+410666025,Sonnet,No,No
+410666025,GPT4,Yes,Yes
+410666025,Mistral,Yes,No
+410666025,Gemini,Yes,No
+410666025,Llama31405B,Yes,Yes
+410666025,Expert,Yes,No
+410666025,Novice,To some extent,No
+410666025,Llama318B,No,Yes
+410666025,Phi3,No,No
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,GPT4,Yes,Yes
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Phi3,Yes,No
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Sonnet,Yes,No
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Mistral,Yes,No
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Llama31405B,Yes,Yes
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Expert,Yes,No
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Llama318B,Yes,To some extent
+2162-38ea7f4f-0d0c-411f-80ae-f2401b2fdeb8,Gemini,Yes,To some extent
+3401-41717448-9da5-457a-99ee-b576076c0b53,Llama318B,Yes,Yes
+3401-41717448-9da5-457a-99ee-b576076c0b53,Expert,To some extent,No
+3401-41717448-9da5-457a-99ee-b576076c0b53,Phi3,No,No
+3401-41717448-9da5-457a-99ee-b576076c0b53,GPT4,Yes,No
+3401-41717448-9da5-457a-99ee-b576076c0b53,Sonnet,Yes,No
+3401-41717448-9da5-457a-99ee-b576076c0b53,Mistral,Yes,Yes
+3401-41717448-9da5-457a-99ee-b576076c0b53,Gemini,No,No
+3401-41717448-9da5-457a-99ee-b576076c0b53,Llama31405B,Yes,Yes
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Phi3,No,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,GPT4,Yes,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Llama318B,Yes,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Mistral,To some extent,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Gemini,To some extent,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Sonnet,No,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Expert,To some extent,No
+572-2b7cc24b-1bf3-4ee3-a15d-506bcb80820b,Llama31405B,Yes,No
+634830657,Phi3,Yes,No
+634830657,Llama31405B,Yes,Yes
+634830657,GPT4,Yes,No
+634830657,Novice,To some extent,No
+634830657,Sonnet,Yes,To some extent
+634830657,Mistral,Yes,Yes
+634830657,Expert,Yes,No
+634830657,Llama318B,Yes,No
+634830657,Gemini,Yes,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Llama31405B,Yes,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Mistral,Yes,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Gemini,Yes,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Phi3,No,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Sonnet,Yes,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Expert,Yes,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,Llama318B,No,No
+5032-7e6f6017-7c1d-4232-b9cb-13a563f9bf01,GPT4,Yes,Yes
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Mistral,Yes,Yes
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Llama318B,Yes,Yes
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Expert,Yes,No
+1300-2497af18-aae6-4e21-b108-f74a151a590a,GPT4,Yes,No
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Gemini,Yes,No
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Phi3,No,No
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Llama31405B,Yes,Yes
+1300-2497af18-aae6-4e21-b108-f74a151a590a,Sonnet,No,No
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Llama318B,Yes,To some extent
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Sonnet,Yes,No
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Mistral,Yes,No
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Expert,Yes,No
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Phi3,No,No
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Llama31405B,Yes,Yes
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,GPT4,Yes,No
+1531-0594284f-6fba-4de2-90d2-6bc046e19578,Gemini,Yes,To some extent
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Llama31405B,Yes,Yes
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Mistral,Yes,No
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,GPT4,Yes,Yes
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Expert,To some extent,No
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Phi3,No,No
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Sonnet,Yes,To some extent
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Gemini,Yes,No
+2100-792311eb-f07a-4d12-8af3-699c087cb4de,Llama318B,Yes,Yes
+292827169_2,Llama31405B,Yes,Yes
+292827169_2,Expert,Yes,Yes
+292827169_2,GPT4,Yes,Yes
+292827169_2,Llama318B,Yes,Yes
+292827169_2,Phi3,Yes,Yes
+292827169_2,Novice,Yes,Yes
+292827169_2,Mistral,Yes,No
+292827169_2,Sonnet,Yes,No
+292827169_2,Gemini,Yes,No
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Mistral,Yes,Yes
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Gemini,Yes,To some extent
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Expert,Yes,No
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Llama31405B,Yes,Yes
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Phi3,No,No
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,GPT4,Yes,Yes
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Sonnet,Yes,No
+3102-2442b7aa-e4d6-4d00-8544-087b607f8b93,Llama318B,Yes,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,GPT4,Yes,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Llama31405B,Yes,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Sonnet,Yes,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Llama318B,Yes,Yes
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Expert,Yes,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Gemini,Yes,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Phi3,No,No
+5660-b5fb8838-67fb-435f-a604-5bafe1a3b060,Mistral,Yes,No
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Phi3,No,No
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Sonnet,Yes,Yes
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Gemini,Yes,To some extent
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,GPT4,Yes,No
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Expert,Yes,Yes
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Llama31405B,Yes,To some extent
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Mistral,Yes,To some extent
+4982-cf85b39f-aa4e-47a9-b250-d1c4b2e6cb5d,Llama318B,Yes,Yes
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Phi3,No,No
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Llama318B,Yes,Yes
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Llama31405B,Yes,No
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Expert,Yes,No
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Sonnet,Yes,No
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,GPT4,Yes,Yes
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Gemini,Yes,No
+5860-7de903b2-d8bc-4a5f-bffd-f70249ce2be8,Mistral,Yes,No
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Phi3,No,No
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Expert,Yes,No
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Sonnet,Yes,Yes
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,GPT4,No,No
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Gemini,Yes,No
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Mistral,Yes,No
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Llama318B,Yes,Yes
+5271-301ba039-7b13-4d7c-b58e-20778c33b33e,Llama31405B,Yes,Yes
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Sonnet,Yes,Yes
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Phi3,No,No
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Gemini,Yes,To some extent
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,GPT4,Yes,No
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Llama318B,Yes,Yes
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Llama31405B,Yes,Yes
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Expert,To some extent,No
+1071-0f303295-c78e-4510-aaaa-5430722c62c8,Mistral,Yes,No
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Mistral,Yes,Yes
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Phi3,No,No
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Gemini,Yes,No
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Llama318B,Yes,No
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Expert,Yes,No
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Llama31405B,Yes,Yes
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,GPT4,Yes,No
+3730-50bc852e-d663-4882-b85e-470e9a8dafa2,Sonnet,Yes,No
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Expert,Yes,No
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Llama31405B,Yes,No
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Phi3,Yes,No
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,GPT4,Yes,Yes
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Gemini,Yes,To some extent
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Mistral,Yes,Yes
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Llama318B,Yes,No
+4291-7dbb5341-a53b-440a-bcc1-bd1ebe282759,Sonnet,Yes,No
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Gemini,Yes,To some extent
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Expert,Yes,Yes
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Phi3,No,No
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Sonnet,Yes,No
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Mistral,Yes,No
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Llama31405B,Yes,Yes
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,Llama318B,Yes,No
+2242-738d97ed-11ae-45c1-bf85-06abf3459c3d,GPT4,Yes,Yes
+291634454,Mistral,Yes,No
+291634454,GPT4,Yes,Yes
+291634454,Llama31405B,Yes,Yes
+291634454,Phi3,Yes,Yes
+291634454,Novice,Yes,No
+291634454,Sonnet,Yes,No
+291634454,Expert,No,No
+291634454,Llama318B,Yes,No
+291634454,Gemini,Yes,To some extent
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Sonnet,Yes,To some extent
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Gemini,Yes,No
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Mistral,Yes,No
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Llama318B,Yes,Yes
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Expert,Yes,No
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Llama31405B,Yes,No
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,GPT4,Yes,No
+1781-a7e9b05c-af72-430e-9361-a9791c5804e2,Phi3,No,No
+292754187,Novice,To some extent,No
+292754187,Mistral,Yes,To some extent
+292754187,Llama318B,Yes,Yes
+292754187,Sonnet,Yes,To some extent
+292754187,Llama31405B,Yes,No
+292754187,GPT4,Yes,Yes
+292754187,Expert,Yes,No
+292754187,Phi3,Yes,Yes
+292754187,Gemini,Yes,To some extent
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Sonnet,Yes,No
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Llama318B,No,No
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Expert,Yes,No
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Llama31405B,Yes,Yes
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Phi3,No,No
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Gemini,Yes,No
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,Mistral,Yes,Yes
+1362-57847e76-3d61-4b0c-a413-cf3a23baa811,GPT4,No,No
+3710-277b60cf-8292-45d5-9be1-941950601c2f,GPT4,Yes,Yes
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Phi3,No,No
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Llama318B,To some extent,Yes
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Sonnet,Yes,To some extent
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Mistral,Yes,No
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Expert,Yes,No
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Gemini,Yes,No
+3710-277b60cf-8292-45d5-9be1-941950601c2f,Llama31405B,Yes,To some extent
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Llama318B,Yes,No
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Sonnet,Yes,No
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Llama31405B,Yes,Yes
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,GPT4,Yes,No
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Expert,To some extent,No
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Mistral,Yes,No
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Phi3,No,No
+4491-26347f1c-d322-48b6-9262-040fb6dbc2ef,Gemini,Yes,Yes
+4740-dfe4c043-4582-4395-b010-204d72621459,Gemini,Yes,No
+4740-dfe4c043-4582-4395-b010-204d72621459,Mistral,Yes,No
+4740-dfe4c043-4582-4395-b010-204d72621459,Sonnet,Yes,No
+4740-dfe4c043-4582-4395-b010-204d72621459,GPT4,Yes,No
+4740-dfe4c043-4582-4395-b010-204d72621459,Expert,To some extent,To some extent
+4740-dfe4c043-4582-4395-b010-204d72621459,Phi3,No,No
+4740-dfe4c043-4582-4395-b010-204d72621459,Llama31405B,Yes,Yes
+4740-dfe4c043-4582-4395-b010-204d72621459,Llama318B,Yes,Yes
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Sonnet,Yes,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Phi3,No,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,GPT4,Yes,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Mistral,Yes,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Expert,Yes,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Llama318B,Yes,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Gemini,Yes,No
+2150-c7e82114-d354-4923-9d5e-1f1278f5af5d,Llama31405B,Yes,No
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Phi3,No,No
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Sonnet,Yes,Yes
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Mistral,Yes,No
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Llama31405B,Yes,Yes
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Llama318B,Yes,To some extent
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Expert,Yes,To some extent
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,Gemini,Yes,Yes
+3630-76ee0f76-4b8e-4f35-b624-90cc525d6372,GPT4,Yes,To some extent
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Mistral,Yes,No
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Phi3,No,To some extent
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Expert,To some extent,Yes
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,GPT4,Yes,Yes
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Sonnet,To some extent,No
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Gemini,No,No
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Llama31405B,Yes,Yes
+273-9f29d34b-8156-4c54-bdc5-be0353fa1ae9,Llama318B,To some extent,No
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Gemini,Yes,No
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Mistral,Yes,No
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Expert,Yes,Yes
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Llama318B,Yes,To some extent
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,GPT4,Yes,Yes
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Sonnet,Yes,To some extent
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Llama31405B,Yes,Yes
+4773-7de84ff9-55f1-4b70-86f5-92a13f6180f2,Phi3,No,No
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,GPT4,Yes,No
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Phi3,No,No
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Expert,Yes,No
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Mistral,Yes,Yes
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Sonnet,Yes,Yes
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Gemini,Yes,No
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Llama31405B,Yes,Yes
+5070-3484a81f-3ad6-405d-9be8-79c2e609853e,Llama318B,Yes,No
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Sonnet,Yes,No
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Gemini,Yes,To some extent
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,GPT4,Yes,No
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Mistral,Yes,To some extent
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Llama31405B,Yes,No
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Phi3,No,No
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Expert,Yes,No
+660-bc96419b-ac99-40c7-94ae-9b3700ef3c17,Llama318B,Yes,Yes
+29892262_1,Mistral,Yes,No
+29892262_1,Llama31405B,Yes,To some extent
+29892262_1,Sonnet,Yes,To some extent
+29892262_1,Expert,Yes,No
+29892262_1,Phi3,Yes,No
+29892262_1,Novice,Yes,Yes
+29892262_1,GPT4,Yes,No
+29892262_1,Gemini,Yes,No
+29892262_1,Llama318B,To some extent,Yes
+413466571_2,GPT4,Yes,To some extent
+413466571_2,Sonnet,Yes,Yes
+413466571_2,Novice,To some extent,No
+413466571_2,Expert,Yes,No
+413466571_2,Mistral,Yes,To some extent
+413466571_2,Phi3,Yes,No
+413466571_2,Llama318B,Yes,Yes
+413466571_2,Llama31405B,Yes,Yes
+413466571_2,Gemini,Yes,To some extent
+296362341_1,Mistral,Yes,No
+296362341_1,Novice,To some extent,No
+296362341_1,Phi3,Yes,Yes
+296362341_1,Expert,Yes,No
+296362341_1,Sonnet,Yes,No
+296362341_1,Llama31405B,Yes,Yes
+296362341_1,GPT4,Yes,Yes
+296362341_1,Llama318B,Yes,Yes
+296362341_1,Gemini,Yes,No
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Llama318B,No,Yes
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,GPT4,No,Yes
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Mistral,Yes,No
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Sonnet,To some extent,Yes
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Llama31405B,Yes,Yes
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Phi3,No,Yes
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Gemini,No,Yes
+2481-c679d6df-b7b0-42f3-b822-3685cf2986a0,Expert,To some extent,No
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,GPT4,Yes,Yes
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Llama31405B,Yes,Yes
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Mistral,Yes,Yes
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Sonnet,Yes,No
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Phi3,No,No
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Gemini,Yes,Yes
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Llama318B,Yes,Yes
+4220-7d6b7aaa-7c4c-4dbb-a019-9ef1c213a087,Expert,Yes,No
+616505623,Sonnet,Yes,To some extent
+616505623,Expert,Yes,No
+616505623,Llama31405B,Yes,No
+616505623,Phi3,Yes,No
+616505623,Mistral,Yes,No
+616505623,Llama318B,Yes,To some extent
+616505623,GPT4,Yes,No
+616505623,Novice,To some extent,No
+616505623,Gemini,Yes,To some extent
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,GPT4,Yes,Yes
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Phi3,To some extent,No
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Llama318B,Yes,No
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Llama31405B,Yes,Yes
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Mistral,Yes,No
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Expert,Yes,No
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Gemini,Yes,No
+3382-5dbd19b9-8c20-4091-81e5-d3e227c2c4cb,Sonnet,Yes,No
+411172176,Phi3,Yes,Yes
+411172176,Expert,Yes,Yes
+411172176,Sonnet,Yes,Yes
+411172176,Novice,Yes,No
+411172176,GPT4,Yes,Yes
+411172176,Mistral,Yes,No
+411172176,Llama318B,Yes,To some extent
+411172176,Llama31405B,Yes,Yes
+411172176,Gemini,Yes,No
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Mistral,Yes,No
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Phi3,No,No
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Llama318B,Yes,To some extent
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Gemini,Yes,No
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,GPT4,Yes,Yes
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Sonnet,To some extent,No
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Expert,Yes,No
+1903-5617f8b2-2759-485d-a413-3f8ca12b25b4,Llama31405B,Yes,Yes
+291616268_1,Gemini,Yes,No
+291616268_1,Llama31405B,Yes,Yes
+291616268_1,Novice,To some extent,No
+291616268_1,GPT4,Yes,Yes
+291616268_1,Llama318B,Yes,To some extent
+291616268_1,Mistral,Yes,No
+291616268_1,Phi3,Yes,Yes
+291616268_1,Expert,Yes,No
+291616268_1,Sonnet,Yes,No
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Llama31405B,Yes,To some extent
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Sonnet,Yes,Yes
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Llama318B,Yes,No
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Mistral,Yes,Yes
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,GPT4,Yes,No
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Phi3,No,No
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Expert,Yes,Yes
+5430-7112ad32-adc8-4156-89a2-137b38a8dd86,Gemini,Yes,No
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Gemini,Yes,No
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Phi3,No,No
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Expert,To some extent,No
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Sonnet,Yes,No
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Llama31405B,Yes,No
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Llama318B,Yes,Yes
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,GPT4,Yes,To some extent
+850-307a72ee-7d9b-4e23-84be-4fbcee595920,Mistral,Yes,To some extent
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Phi3,No,No
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,GPT4,Yes,No
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Llama31405B,Yes,Yes
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Sonnet,Yes,No
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Mistral,Yes,No
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Llama318B,To some extent,To some extent
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Expert,Yes,No
+4360-9d73f914-37f9-49f8-802a-19fdebe6f1ae,Gemini,To some extent,No
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Phi3,No,No
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,GPT4,Yes,Yes
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Sonnet,To some extent,No
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Expert,Yes,Yes
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Llama31405B,Yes,To some extent
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Gemini,Yes,No
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Mistral,Yes,No
+1380-46d03370-0282-4b1e-8ac3-d7dece27253a,Llama318B,Yes,Yes
+410470380,GPT4,Yes,Yes
+410470380,Novice,Yes,Yes
+410470380,Llama318B,Yes,Yes
+410470380,Llama31405B,Yes,To some extent
+410470380,Expert,Yes,No
+410470380,Gemini,Yes,No
+410470380,Phi3,Yes,Yes
+410470380,Sonnet,Yes,To some extent
+410470380,Mistral,Yes,To some extent
+294929858,Novice,To some extent,No
+294929858,Sonnet,Yes,Yes
+294929858,Mistral,Yes,No
+294929858,Llama31405B,Yes,No
+294929858,Llama318B,Yes,No
+294929858,Phi3,Yes,No
+294929858,GPT4,Yes,No
+294929858,Expert,Yes,No
+294929858,Gemini,Yes,No
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Expert,Yes,No
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Llama31405B,Yes,Yes
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Gemini,Yes,To some extent
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,GPT4,Yes,No
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Llama318B,Yes,No
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Mistral,Yes,No
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Sonnet,Yes,No
+450-eb6d7574-c5ad-4e3b-9e9e-a80ebbe1a066,Phi3,No,No
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Phi3,No,Yes
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Llama318B,Yes,Yes
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Llama31405B,Yes,Yes
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Sonnet,Yes,Yes
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Mistral,Yes,To some extent
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,GPT4,Yes,No
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Gemini,Yes,No
+800-224620e0-502a-462d-93dd-9a89b0dc44a9,Expert,Yes,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Llama318B,Yes,Yes
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Gemini,Yes,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Llama31405B,No,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Sonnet,No,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Expert,Yes,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Mistral,No,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,Phi3,No,No
+4093-45382c91-ed8a-430f-8986-d841d7eaa256,GPT4,No,No
+285615634,Expert,To some extent,No
+285615634,GPT4,Yes,Yes
+285615634,Novice,No,No
+285615634,Phi3,Yes,Yes
+285615634,Llama31405B,Yes,Yes
+285615634,Llama318B,Yes,No
+285615634,Sonnet,Yes,Yes
+285615634,Mistral,Yes,No
+285615634,Gemini,Yes,No
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Gemini,Yes,No
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Phi3,No,No
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Llama318B,Yes,To some extent
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Llama31405B,Yes,No
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Mistral,Yes,No
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Expert,Yes,No
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,GPT4,Yes,To some extent
+930-b01cb51d-748d-460c-841a-08e4d5cd5cc7,Sonnet,To some extent,To some extent
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Sonnet,Yes,No
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Llama31405B,Yes,To some extent
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Gemini,Yes,No
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Mistral,Yes,No
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Phi3,No,No
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Llama318B,Yes,Yes
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,Expert,Yes,No
+4380-478bba64-fcd2-4947-b0b4-a4e1242f5aab,GPT4,Yes,Yes
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Gemini,Yes,No
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Llama31405B,Yes,No
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,GPT4,Yes,Yes
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Phi3,No,No
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Llama318B,No,Yes
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Mistral,Yes,Yes
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Sonnet,Yes,To some extent
+5211-12db685c-1137-44b9-a0b0-31ba0b2a762a,Expert,Yes,Yes
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Sonnet,Yes,No
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,GPT4,Yes,Yes
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Llama31405B,Yes,Yes
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Mistral,Yes,No
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Phi3,No,No
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Gemini,Yes,No
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Llama318B,Yes,Yes
+111-ddb33eb8-4cfa-41c8-9234-576ab1b32925,Expert,Yes,No
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Sonnet,Yes,No
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Llama31405B,Yes,No
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Llama318B,Yes,Yes
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Gemini,Yes,No
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Mistral,Yes,To some extent
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Phi3,No,No
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,GPT4,Yes,No
+4954-dab3de76-f5c1-45d1-bd85-2e20c961557b,Expert,Yes,No
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Mistral,To some extent,To some extent
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Phi3,No,No
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Gemini,To some extent,No
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Expert,Yes,No
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,GPT4,To some extent,Yes
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Llama318B,Yes,No
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Sonnet,Yes,No
+200-6bc4ab9f-65f4-49d3-b0da-9684ab030694,Llama31405B,To some extent,Yes
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Gemini,Yes,To some extent
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Llama31405B,Yes,Yes
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Llama318B,Yes,No
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Mistral,Yes,To some extent
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Sonnet,Yes,No
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,GPT4,Yes,Yes
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Phi3,To some extent,No
+5721-0a09b97d-d2e1-44ab-bbff-900a3591870e,Expert,To some extent,No
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Llama318B,Yes,No
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Mistral,Yes,Yes
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Phi3,No,No
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Gemini,Yes,No
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Llama31405B,Yes,Yes
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Expert,Yes,No
+3331-d8934056-b756-402f-aa94-2111d909f6e3,GPT4,No,No
+3331-d8934056-b756-402f-aa94-2111d909f6e3,Sonnet,No,To some extent
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Gemini,No,No
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Mistral,Yes,No
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Llama31405B,Yes,Yes
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Expert,Yes,No
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Sonnet,Yes,No
+671-e218f109-faee-4677-9fb4-1ce664e485e8,GPT4,Yes,Yes
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Phi3,No,No
+671-e218f109-faee-4677-9fb4-1ce664e485e8,Llama318B,Yes,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Llama318B,Yes,Yes
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Expert,Yes,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Phi3,No,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Gemini,Yes,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Mistral,Yes,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,GPT4,Yes,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Sonnet,Yes,No
+5521-1b720033-2cd8-4425-975c-c7867c9b2c6e,Llama31405B,Yes,To some extent
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,GPT4,Yes,Yes
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Llama318B,Yes,Yes
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Llama31405B,No,Yes
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Expert,Yes,No
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Gemini,Yes,No
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Mistral,No,No
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Sonnet,Yes,No
+2821-24e38e2f-8a19-4450-a5c4-768c2c9f6666,Phi3,No,No
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Sonnet,Yes,No
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Llama318B,Yes,Yes
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Llama31405B,Yes,Yes
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Expert,Yes,No
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Phi3,No,No
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,GPT4,Yes,No
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Mistral,Yes,No
+4500-9466d5b5-41fc-48f4-b665-cea0ec0341af,Gemini,Yes,No
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Llama318B,Yes,Yes
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Phi3,No,No
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,GPT4,Yes,No
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Llama31405B,Yes,Yes
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Expert,Yes,No
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Gemini,Yes,No
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Mistral,Yes,To some extent
+2360-1cf09c5d-585f-4ebd-a777-d24f32bc1c8e,Sonnet,Yes,To some extent
+2895106109,Llama31405B,Yes,Yes
+2895106109,Mistral,Yes,No
+2895106109,GPT4,Yes,Yes
+2895106109,Llama318B,Yes,Yes
+2895106109,Novice,Yes,No
+2895106109,Phi3,Yes,No
+2895106109,Expert,Yes,No
+2895106109,Sonnet,Yes,Yes
+2895106109,Gemini,Yes,No
+29640377,Llama318B,Yes,Yes
+29640377,Sonnet,Yes,To some extent
+29640377,Gemini,Yes,To some extent
+29640377,Novice,No,No
+29640377,Llama31405B,Yes,Yes
+29640377,Mistral,Yes,No
+29640377,GPT4,Yes,Yes
+29640377,Phi3,Yes,Yes
+29640377,Expert,Yes,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Gemini,Yes,Yes
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Expert,Yes,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Sonnet,Yes,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Phi3,No,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Mistral,Yes,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Llama318B,No,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,GPT4,No,No
+751-f8580f9c-d56f-4223-8053-5853d99b16f1,Llama31405B,Yes,Yes
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,GPT4,Yes,No
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Gemini,Yes,No
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Sonnet,Yes,No
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Phi3,No,No
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Mistral,Yes,Yes
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Expert,Yes,No
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Llama31405B,Yes,No
+5080-fdd8f135-4ba8-4a78-b078-ce1cea3dd345,Llama318B,Yes,Yes
+296362341_2,Expert,Yes,No
+296362341_2,Llama318B,Yes,Yes
+296362341_2,Mistral,Yes,No
+296362341_2,Novice,To some extent,No
+296362341_2,Sonnet,Yes,To some extent
+296362341_2,Gemini,Yes,No
+296362341_2,GPT4,Yes,Yes
+296362341_2,Phi3,Yes,No
+296362341_2,Llama31405B,Yes,Yes
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Llama31405B,Yes,Yes
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Phi3,No,No
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Llama318B,Yes,Yes
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Expert,Yes,Yes
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Sonnet,Yes,To some extent
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Gemini,Yes,No
+4420-c513c95a-3421-45de-9285-33a4b49911dc,GPT4,Yes,No
+4420-c513c95a-3421-45de-9285-33a4b49911dc,Mistral,Yes,Yes
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Llama31405B,Yes,Yes
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Phi3,Yes,No
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Llama318B,Yes,No
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Gemini,No,No
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Sonnet,No,To some extent
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Mistral,No,No
+962-17708d89-e329-4c3b-8e89-0b8114f729af,GPT4,Yes,No
+962-17708d89-e329-4c3b-8e89-0b8114f729af,Expert,Yes,Yes
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Llama318B,No,Yes
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Llama31405B,No,Yes
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Phi3,No,To some extent
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,GPT4,No,Yes
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Mistral,No,No
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Gemini,No,No
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Sonnet,No,No
+2221-3bd4ae64-870a-4b1c-9eb0-fce29486acc9,Expert,To some extent,No
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,GPT4,Yes,No
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Mistral,Yes,No
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Llama318B,Yes,Yes
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Phi3,No,No
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Gemini,Yes,Yes
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Llama31405B,Yes,Yes
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Sonnet,Yes,To some extent
+4660-fcf5fd27-f05f-4c05-a224-71f710d43437,Expert,Yes,Yes
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Mistral,Yes,Yes
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Phi3,No,No
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Sonnet,Yes,To some extent
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Llama318B,Yes,No
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Gemini,Yes,No
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,GPT4,Yes,No
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Llama31405B,Yes,No
+5231-550b8c32-8200-48b6-bb6a-8e95fc115ce1,Expert,Yes,To some extent
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,GPT4,Yes,Yes
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Expert,To some extent,No
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Sonnet,Yes,No
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Gemini,Yes,No
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Phi3,No,No
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Llama31405B,Yes,Yes
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Mistral,Yes,To some extent
+233-3ed63e5e-7f86-41f2-8d8d-241d29114c9a,Llama318B,Yes,Yes
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Gemini,Yes,No
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,GPT4,Yes,No
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Expert,Yes,No
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Mistral,Yes,No
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Phi3,No,No
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Sonnet,Yes,Yes
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Llama31405B,Yes,No
+1893-b01bcc6d-2151-442d-ae55-0f55f787cdf4,Llama318B,Yes,No
+638345336,Sonnet,Yes,To some extent
+638345336,Gemini,Yes,To some extent
+638345336,Expert,To some extent,To some extent
+638345336,Phi3,Yes,No
+638345336,Novice,Yes,No
+638345336,Mistral,Yes,No
+638345336,GPT4,Yes,Yes
+638345336,Llama318B,No,To some extent
+638345336,Llama31405B,Yes,Yes
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Expert,Yes,No
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Phi3,No,No
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Sonnet,No,No
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Llama318B,No,No
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,GPT4,Yes,Yes
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Mistral,Yes,No
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Llama31405B,Yes,No
+3660-a26cf722-9f4c-4e4d-b38b-bbb00c5172e2,Gemini,Yes,No
+292756129,Llama31405B,Yes,To some extent
+292756129,GPT4,Yes,Yes
+292756129,Expert,To some extent,No
+292756129,Phi3,Yes,To some extent
+292756129,Novice,To some extent,No
+292756129,Llama318B,Yes,Yes
+292756129,Mistral,Yes,No
+292756129,Sonnet,Yes,No
+292756129,Gemini,Yes,No
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Llama31405B,Yes,To some extent
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Gemini,Yes,To some extent
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,GPT4,Yes,Yes
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Llama318B,Yes,Yes
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Sonnet,Yes,No
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Mistral,Yes,Yes
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Phi3,No,No
+4520-2fcd0aaf-e94e-4586-aa86-ae2292da9eb9,Expert,Yes,No
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Llama318B,Yes,To some extent
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Phi3,No,No
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Mistral,Yes,Yes
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Llama31405B,Yes,Yes
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Gemini,Yes,No
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Sonnet,Yes,To some extent
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,GPT4,Yes,Yes
+1553-96099177-8d66-4669-9d26-dd33ced52bb4,Expert,To some extent,No
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Sonnet,Yes,No
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,GPT4,Yes,No
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Expert,Yes,Yes
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Mistral,Yes,No
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Phi3,Yes,Yes
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Llama31405B,Yes,Yes
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Llama318B,Yes,Yes
+1312-9ed3e3e6-b31c-4034-b272-e0825f651aa0,Gemini,No,No
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Mistral,Yes,No
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Phi3,No,No
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Llama318B,Yes,Yes
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,GPT4,Yes,No
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Llama31405B,Yes,To some extent
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Gemini,Yes,No
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Expert,No,No
+600-ad70b7e3-63bf-4a5f-a153-e9b99adffeb1,Sonnet,Yes,To some extent
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Expert,Yes,No
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Llama318B,Yes,To some extent
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Llama31405B,Yes,Yes
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Sonnet,Yes,To some extent
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Phi3,No,No
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Gemini,Yes,No
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,Mistral,Yes,Yes
+2952-ed541f4b-e82c-4945-91da-fa2c5277746f,GPT4,Yes,No
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Phi3,No,No
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Sonnet,Yes,Yes
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Mistral,Yes,No
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Expert,Yes,No
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Gemini,No,No
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,GPT4,Yes,No
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Llama31405B,Yes,Yes
+1991-34bc3323-a5c0-4d06-91a5-68e6d2ea0696,Llama318B,Yes,No
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Phi3,No,No
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Mistral,Yes,Yes
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Sonnet,Yes,To some extent
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,GPT4,Yes,No
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Gemini,Yes,No
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Llama31405B,Yes,To some extent
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Llama318B,Yes,To some extent
+4210-d636869c-ba7f-4908-a93d-44b02a94e260,Expert,Yes,No
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Llama31405B,Yes,Yes
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Sonnet,Yes,No
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Llama318B,Yes,To some extent
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,GPT4,Yes,Yes
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Expert,Yes,No
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Mistral,Yes,No
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Phi3,No,No
+1612-fb30b14f-9258-4b38-ad95-54b0928d8c29,Gemini,Yes,To some extent
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,GPT4,Yes,No
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Gemini,Yes,No
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Phi3,No,No
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Expert,No,No
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Sonnet,Yes,No
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Llama318B,Yes,To some extent
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Mistral,Yes,No
+4560-b4977177-2b23-4ce7-b833-ac16632bdb2d,Llama31405B,Yes,Yes
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Llama318B,Yes,Yes
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,GPT4,Yes,Yes
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Mistral,Yes,Yes
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Expert,To some extent,No
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Sonnet,Yes,To some extent
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Phi3,No,No
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Llama31405B,Yes,Yes
+2970-33dc6a23-1566-45ba-8888-a9f1baad4522,Gemini,Yes,No
+411172030_1,GPT4,Yes,Yes
+411172030_1,Llama31405B,Yes,To some extent
+411172030_1,Sonnet,Yes,To some extent
+411172030_1,Expert,Yes,Yes
+411172030_1,Mistral,Yes,No
+411172030_1,Novice,Yes,No
+411172030_1,Gemini,Yes,No
+411172030_1,Llama318B,Yes,Yes
+411172030_1,Phi3,No,No
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Expert,To some extent,No
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Llama318B,To some extent,To some extent
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Llama31405B,Yes,Yes
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Mistral,To some extent,No
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Gemini,Yes,No
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Sonnet,Yes,No
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,GPT4,Yes,Yes
+611-5ddb4cc0-f66b-44ce-a973-380aaed2d9fc,Phi3,To some extent,No
+181-56083690-0781-4645-810d-0def89b654b5,Sonnet,Yes,To some extent
+181-56083690-0781-4645-810d-0def89b654b5,Gemini,Yes,No
+181-56083690-0781-4645-810d-0def89b654b5,Phi3,No,No
+181-56083690-0781-4645-810d-0def89b654b5,Llama31405B,Yes,No
+181-56083690-0781-4645-810d-0def89b654b5,Expert,Yes,No
+181-56083690-0781-4645-810d-0def89b654b5,Mistral,Yes,No
+181-56083690-0781-4645-810d-0def89b654b5,GPT4,Yes,No
+181-56083690-0781-4645-810d-0def89b654b5,Llama318B,Yes,Yes
+29892262_2,Llama31405B,Yes,To some extent
+29892262_2,Sonnet,Yes,To some extent
+29892262_2,Mistral,Yes,Yes
+29892262_2,GPT4,Yes,No
+29892262_2,Expert,Yes,Yes
+29892262_2,Phi3,Yes,No
+29892262_2,Novice,Yes,Yes
+29892262_2,Llama318B,Yes,Yes
+29892262_2,Gemini,Yes,No
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Sonnet,Yes,Yes
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Expert,Yes,No
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Llama318B,To some extent,No
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,GPT4,Yes,No
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Mistral,Yes,Yes
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Phi3,No,No
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Llama31405B,Yes,Yes
+2391-784b2045-292f-47cc-88a9-c2d5fe5bef89,Gemini,Yes,No
+405522235,Llama318B,To some extent,To some extent
+405522235,Novice,Yes,Yes
+405522235,Llama31405B,Yes,Yes
+405522235,Mistral,Yes,To some extent
+405522235,GPT4,Yes,Yes
+405522235,Expert,Yes,No
+405522235,Sonnet,Yes,No
+405522235,Phi3,Yes,To some extent
+405522235,Gemini,Yes,To some extent
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Expert,To some extent,No
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Llama318B,Yes,Yes
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Sonnet,To some extent,No
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,GPT4,Yes,Yes
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Mistral,Yes,Yes
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Phi3,No,No
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Llama31405B,Yes,Yes
+2311-6c26dd74-0e8f-4fae-9753-5d8bdc941f39,Gemini,No,No
+5034-25720713-afe2-461f-b042-1e0553720cc4,Mistral,Yes,No
+5034-25720713-afe2-461f-b042-1e0553720cc4,Llama31405B,No,No
+5034-25720713-afe2-461f-b042-1e0553720cc4,Phi3,No,To some extent
+5034-25720713-afe2-461f-b042-1e0553720cc4,Sonnet,Yes,Yes
+5034-25720713-afe2-461f-b042-1e0553720cc4,Gemini,Yes,No
+5034-25720713-afe2-461f-b042-1e0553720cc4,GPT4,Yes,Yes
+5034-25720713-afe2-461f-b042-1e0553720cc4,Expert,Yes,No
+5034-25720713-afe2-461f-b042-1e0553720cc4,Llama318B,Yes,Yes
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Llama318B,Yes,Yes
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Llama31405B,Yes,No
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Phi3,No,No
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Gemini,Yes,No
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Sonnet,To some extent,No
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,GPT4,Yes,Yes
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Mistral,Yes,Yes
+3970-82bd1757-b4e7-4e5e-b870-01c01bd5a8bc,Expert,Yes,Yes
+113-181fc398-924f-4d25-9533-7b7787ade23a,Mistral,Yes,Yes
+113-181fc398-924f-4d25-9533-7b7787ade23a,Gemini,Yes,No
+113-181fc398-924f-4d25-9533-7b7787ade23a,Llama31405B,Yes,Yes
+113-181fc398-924f-4d25-9533-7b7787ade23a,Llama318B,Yes,No
+113-181fc398-924f-4d25-9533-7b7787ade23a,Phi3,No,No
+113-181fc398-924f-4d25-9533-7b7787ade23a,Expert,Yes,No
+113-181fc398-924f-4d25-9533-7b7787ade23a,Sonnet,Yes,Yes
+113-181fc398-924f-4d25-9533-7b7787ade23a,GPT4,Yes,Yes
+425197620,Llama318B,Yes,Yes
+425197620,Llama31405B,Yes,Yes
+425197620,Mistral,Yes,No
+425197620,Sonnet,Yes,To some extent
+425197620,GPT4,Yes,Yes
+425197620,Novice,To some extent,No
+425197620,Expert,Yes,Yes
+425197620,Phi3,Yes,To some extent
+425197620,Gemini,Yes,No
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Sonnet,Yes,No
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Llama318B,Yes,Yes
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Expert,Yes,Yes
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,GPT4,Yes,Yes
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Gemini,Yes,No
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Llama31405B,Yes,Yes
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Mistral,Yes,No
+3530-162a5d8e-7b1a-4e4d-b26e-8b6b70c3d8eb,Phi3,No,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,GPT4,Yes,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Llama318B,Yes,Yes
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Llama31405B,Yes,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Expert,Yes,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Gemini,Yes,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Phi3,No,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Mistral,Yes,No
+2270-e6cb34ce-4251-4d1b-9f80-28358033a287,Sonnet,Yes,No
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Mistral,Yes,No
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Expert,To some extent,No
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Llama31405B,Yes,Yes
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Llama318B,Yes,Yes
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Sonnet,Yes,Yes
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Phi3,No,No
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,GPT4,Yes,No
+3110-bb76933b-3239-40f3-af66-b3a96517b1a3,Gemini,Yes,No
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Expert,Yes,Yes
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Sonnet,To some extent,No
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Phi3,No,No
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Mistral,Yes,No
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,GPT4,Yes,Yes
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Llama318B,Yes,Yes
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Llama31405B,Yes,No
+4152-ddbfdba8-80a3-4459-9fff-c80d7454905d,Gemini,Yes,No
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,GPT4,Yes,To some extent
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Expert,To some extent,No
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Sonnet,Yes,No
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Mistral,Yes,No
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Gemini,Yes,No
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Llama31405B,Yes,Yes
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Phi3,No,No
+4850-d81ca717-6f4c-40f2-973a-85fba62b195f,Llama318B,Yes,No
+405563829_2,Llama318B,Yes,No
+405563829_2,Mistral,Yes,Yes
+405563829_2,Gemini,Yes,No
+405563829_2,GPT4,Yes,Yes
+405563829_2,Phi3,Yes,Yes
+405563829_2,Expert,Yes,No
+405563829_2,Sonnet,Yes,To some extent
+405563829_2,Novice,Yes,No
+405563829_2,Llama31405B,Yes,Yes
+612872221,Llama318B,Yes,Yes
+612872221,Gemini,Yes,No
+612872221,GPT4,Yes,Yes
+612872221,Phi3,Yes,No
+612872221,Sonnet,No,To some extent
+612872221,Novice,No,No
+612872221,Llama31405B,Yes,Yes
+612872221,Mistral,No,No
+612872221,Expert,Yes,No
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Llama31405B,Yes,Yes
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Gemini,Yes,No
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Expert,Yes,No
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Phi3,No,No
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Sonnet,Yes,Yes
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,GPT4,Yes,No
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Mistral,Yes,Yes
+5030-04c99feb-599d-489e-9c25-bc08a8b0f4e7,Llama318B,No,No
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,GPT4,Yes,Yes
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Sonnet,Yes,No
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Phi3,No,No
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Llama31405B,Yes,Yes
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Mistral,Yes,No
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Gemini,Yes,No
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Llama318B,No,Yes
+320-aa465d06-81e9-49bc-ab0e-becc061e4ca5,Expert,To some extent,No
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Llama318B,No,Yes
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Phi3,No,No
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Gemini,To some extent,No
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Llama31405B,Yes,Yes
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Sonnet,Yes,Yes
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,GPT4,Yes,Yes
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Mistral,To some extent,Yes
+640-f1adaac2-e8b5-49b7-9bc0-4bb896883498,Expert,To some extent,No
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Expert,Yes,No
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Mistral,Yes,No
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,GPT4,Yes,To some extent
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Llama31405B,Yes,Yes
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Sonnet,Yes,To some extent
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Gemini,Yes,No
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Llama318B,To some extent,No
+2232-6da587be-14c5-4609-89f2-571d5da4e27f,Phi3,No,No
+291634410,Expert,Yes,Yes
+291634410,GPT4,Yes,No
+291634410,Llama318B,Yes,Yes
+291634410,Novice,No,No
+291634410,Sonnet,Yes,No
+291634410,Mistral,Yes,No
+291634410,Llama31405B,Yes,To some extent
+291634410,Phi3,Yes,No
+291634410,Gemini,Yes,No
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Llama31405B,Yes,Yes
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Gemini,Yes,No
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,GPT4,Yes,Yes
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Llama318B,No,Yes
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Mistral,Yes,No
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Sonnet,Yes,No
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Phi3,No,No
+2732-fdff394d-edab-4b79-8cfd-0cf09b632e86,Expert,Yes,No
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Expert,Yes,No
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Mistral,To some extent,No
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,GPT4,Yes,Yes
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Llama31405B,To some extent,No
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Sonnet,Yes,No
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Gemini,Yes,To some extent
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Llama318B,Yes,Yes
+238-5bf945ff-27bf-4cd3-87d7-72b2368296f4,Phi3,No,No
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,GPT4,Yes,Yes
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Sonnet,Yes,No
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Gemini,Yes,No
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Llama31405B,Yes,Yes
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Llama318B,Yes,Yes
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Phi3,No,To some extent
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Mistral,Yes,No
+274-4ba5fb6f-72f1-49d4-8a33-71d7d80049df,Expert,Yes,Yes
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Llama31405B,Yes,Yes
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Sonnet,Yes,Yes
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Mistral,Yes,No
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Gemini,Yes,Yes
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Phi3,No,No
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Expert,To some extent,No
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,Llama318B,Yes,Yes
+3840-b56a64c9-e995-4f9b-93a8-d0bf3d4edfea,GPT4,Yes,Yes
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Llama31405B,Yes,Yes
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Phi3,No,Yes
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,GPT4,Yes,Yes
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Expert,Yes,No
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Sonnet,Yes,To some extent
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Mistral,Yes,No
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Gemini,Yes,Yes
+3733-5cd7542d-3967-4aee-bfcf-cc1e84bfb85f,Llama318B,Yes,No
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Expert,Yes,No
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,GPT4,Yes,Yes
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Phi3,No,To some extent
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Llama31405B,Yes,No
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Llama318B,No,Yes
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Sonnet,No,No
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Mistral,Yes,No
+4114-d201ea9e-53be-45b3-9d6b-651be5b73342,Gemini,No,To some extent
+294929823_2,Expert,Yes,Yes
+294929823_2,Gemini,To some extent,No
+294929823_2,Phi3,Yes,Yes
+294929823_2,Llama318B,Yes,Yes
+294929823_2,Sonnet,Yes,No
+294929823_2,Llama31405B,Yes,Yes
+294929823_2,Novice,Yes,No
+294929823_2,GPT4,Yes,To some extent
+294929823_2,Mistral,To some extent,No
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Llama31405B,Yes,Yes
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Sonnet,Yes,No
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Phi3,No,No
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Mistral,Yes,Yes
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Expert,To some extent,No
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Llama318B,Yes,To some extent
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,Gemini,Yes,No
+2160-ab0850fc-cdde-40d1-9b46-f83f0b6895cb,GPT4,Yes,Yes
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Llama318B,Yes,No
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Mistral,To some extent,No
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Gemini,Yes,No
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Sonnet,Yes,To some extent
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,GPT4,Yes,Yes
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Phi3,No,No
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Expert,Yes,To some extent
+1120-d73e5b48-492c-4800-9d25-0b2288f0eb63,Llama31405B,Yes,Yes
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,GPT4,Yes,Yes
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Sonnet,Yes,No
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Mistral,Yes,Yes
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Llama31405B,Yes,Yes
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Llama318B,No,No
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Gemini,To some extent,No
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Expert,To some extent,No
+3920-92be0ca4-ce2e-432e-acde-4daf7296fcc6,Phi3,No,No
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Mistral,Yes,No
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Gemini,Yes,No
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Phi3,No,No
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Expert,To some extent,No
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Llama318B,Yes,Yes
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,GPT4,Yes,Yes
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Sonnet,Yes,To some extent
+1081-903b7bbe-1fc9-4196-9c04-7f7d9c04d865,Llama31405B,Yes,To some extent
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Expert,Yes,No
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Llama318B,To some extent,No
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Llama31405B,Yes,No
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,GPT4,Yes,Yes
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Mistral,Yes,No
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Phi3,No,No
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Sonnet,Yes,No
+4956-6f22e083-fbfe-43b5-8208-b7dfc0d5410b,Gemini,Yes,To some extent
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Expert,Yes,No
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Llama31405B,Yes,Yes
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Gemini,To some extent,No
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Llama318B,To some extent,No
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Phi3,No,No
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Sonnet,To some extent,No
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,Mistral,Yes,To some extent
+5372-dc086fcf-5710-46cc-b94d-bfbde685ae57,GPT4,Yes,No
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Gemini,Yes,No
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Llama318B,Yes,Yes
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Phi3,No,No
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Llama31405B,Yes,No
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Mistral,Yes,No
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Expert,Yes,Yes
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,Sonnet,Yes,No
+990-cd1ae299-2aec-4984-b0f6-d9274854989a,GPT4,Yes,No
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Expert,Yes,No
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Llama31405B,Yes,Yes
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Mistral,Yes,No
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Llama318B,Yes,To some extent
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Phi3,No,No
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Sonnet,Yes,No
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,GPT4,Yes,Yes
+193-8ba31f5f-8393-4197-849d-2d750fa3efc9,Gemini,Yes,To some extent
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Phi3,No,No
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Sonnet,Yes,Yes
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Expert,To some extent,Yes
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,GPT4,Yes,Yes
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Mistral,Yes,No
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Llama318B,Yes,No
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Gemini,No,No
+701-a0a65335-8459-420a-92c9-350b8f1f4eb3,Llama31405B,Yes,Yes
+429629538_1,GPT4,Yes,Yes
+429629538_1,Mistral,Yes,No
+429629538_1,Llama318B,Yes,Yes
+429629538_1,Phi3,Yes,Yes
+429629538_1,Novice,To some extent,No
+429629538_1,Sonnet,Yes,Yes
+429629538_1,Expert,Yes,No
+429629538_1,Llama31405B,Yes,Yes
+429629538_1,Gemini,Yes,No
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Expert,Yes,No
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Mistral,Yes,Yes
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Sonnet,To some extent,Yes
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Llama31405B,Yes,Yes
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Phi3,No,No
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,GPT4,Yes,Yes
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Gemini,Yes,No
+1710-2d42a67c-6b87-4b08-a90a-4c43487af865,Llama318B,No,No
+614271245_1,Novice,To some extent,No
+614271245_1,Sonnet,Yes,No
+614271245_1,Phi3,Yes,Yes
+614271245_1,Llama31405B,Yes,No
+614271245_1,GPT4,Yes,Yes
+614271245_1,Mistral,Yes,No
+614271245_1,Llama318B,Yes,Yes
+614271245_1,Expert,To some extent,No
+614271245_1,Gemini,Yes,No
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Mistral,Yes,No
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Llama31405B,Yes,Yes
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Gemini,Yes,No
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Expert,Yes,No
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Llama318B,Yes,To some extent
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Sonnet,Yes,To some extent
+2381-65fd981f-d994-4186-ab41-599d2712dee3,Phi3,No,No
+2381-65fd981f-d994-4186-ab41-599d2712dee3,GPT4,Yes,No
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Llama318B,Yes,No
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,GPT4,Yes,Yes
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Sonnet,No,No
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Llama31405B,Yes,Yes
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Mistral,Yes,Yes
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Gemini,No,No
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Expert,No,No
+2541-3492ae69-63d8-495f-9459-b3ebf7b11f43,Phi3,No,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Sonnet,Yes,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Phi3,To some extent,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Gemini,Yes,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,GPT4,Yes,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Llama318B,To some extent,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Llama31405B,Yes,To some extent
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Mistral,To some extent,No
+3271-0e8e0c86-ed13-4e41-9e66-7e9370db2b34,Expert,Yes,To some extent
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Phi3,No,To some extent
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,GPT4,Yes,Yes
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Mistral,Yes,No
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Sonnet,Yes,Yes
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Llama31405B,Yes,Yes
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Llama318B,Yes,No
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Gemini,No,No
+322-b0777313-cb3c-4b44-80e0-6b136e951fff,Expert,No,No
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Llama31405B,Yes,Yes
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Mistral,Yes,No
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Expert,Yes,To some extent
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Phi3,No,No
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,GPT4,Yes,No
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Llama318B,Yes,No
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Gemini,Yes,No
+3170-7686ca2c-7039-461d-bfeb-cfb253d2cebb,Sonnet,Yes,Yes
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Mistral,Yes,No
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Llama318B,Yes,Yes
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Sonnet,Yes,To some extent
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,GPT4,Yes,To some extent
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Llama31405B,Yes,Yes
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Expert,Yes,Yes
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Phi3,No,No
+1271-c4381904-a7ad-4fcd-8b9a-556ad108d36d,Gemini,Yes,No
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Expert,Yes,Yes
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,GPT4,Yes,No
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Gemini,No,No
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Llama31405B,Yes,To some extent
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Mistral,Yes,Yes
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Llama318B,No,Yes
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Sonnet,Yes,To some extent
+2283-6be1d709-7db0-47fb-bf7e-3679b4f1bad2,Phi3,No,No
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,GPT4,Yes,Yes
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Gemini,To some extent,No
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Expert,Yes,No
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Phi3,No,No
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Mistral,Yes,No
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Llama31405B,Yes,Yes
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Sonnet,Yes,Yes
+3210-7b5be755-0a3b-44b9-a77b-5f2cb0ce96a0,Llama318B,Yes,No
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Llama318B,Yes,Yes
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Expert,No,No
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Mistral,Yes,Yes
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,GPT4,Yes,Yes
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Sonnet,Yes,No
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Phi3,No,No
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Llama31405B,Yes,Yes
+5531-8ca74539-d47a-4178-ab6a-f5ba5e76a49f,Gemini,Yes,No
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Phi3,No,No
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Expert,Yes,Yes
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Mistral,Yes,No
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Gemini,Yes,No
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Sonnet,Yes,Yes
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,GPT4,Yes,Yes
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Llama318B,Yes,To some extent
+4861-13b3dd4d-9539-4954-9909-e213ee5f1b04,Llama31405B,Yes,Yes
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Gemini,Yes,No
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Sonnet,Yes,No
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Llama318B,Yes,To some extent
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Llama31405B,Yes,To some extent
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Phi3,No,No
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Mistral,Yes,No
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,GPT4,Yes,To some extent
+1630-cee84e64-0744-41e4-a5ec-f3ec9a5742d5,Expert,Yes,Yes
+291616268_2,Llama31405B,Yes,Yes
+291616268_2,Novice,To some extent,No
+291616268_2,Phi3,Yes,Yes
+291616268_2,GPT4,Yes,Yes
+291616268_2,Expert,Yes,No
+291616268_2,Llama318B,Yes,Yes
+291616268_2,Sonnet,No,No
+291616268_2,Mistral,Yes,No
+291616268_2,Gemini,Yes,Yes
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Sonnet,Yes,No
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,GPT4,Yes,Yes
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Expert,To some extent,Yes
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Llama31405B,No,Yes
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Mistral,To some extent,No
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Phi3,No,No
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Llama318B,To some extent,Yes
+2560-0b64f668-ef92-48fd-a7c7-2ee50f5aff0c,Gemini,To some extent,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Llama31405B,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Phi3,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,GPT4,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Sonnet,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Gemini,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Mistral,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Llama318B,Yes,No
+3923-41b5656b-88bd-4830-aa96-6674ea9016a4,Expert,To some extent,No
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Sonnet,Yes,To some extent
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Llama31405B,Yes,Yes
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Phi3,No,No
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Llama318B,Yes,Yes
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,GPT4,Yes,Yes
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Mistral,Yes,Yes
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Expert,Yes,No
+2172-795767b0-5b4f-4917-a743-8eab61b591d0,Gemini,Yes,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Mistral,Yes,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Phi3,No,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Llama318B,Yes,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Llama31405B,Yes,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Sonnet,Yes,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,GPT4,Yes,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Expert,To some extent,No
+2040-24fff070-d20e-4169-9b4e-960b20ab74d5,Gemini,Yes,No
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Llama318B,Yes,No
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Llama31405B,Yes,Yes
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Mistral,Yes,To some extent
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Phi3,Yes,No
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,GPT4,Yes,Yes
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Sonnet,Yes,Yes
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Expert,Yes,No
+5112-d84e11fa-5578-43d5-bf1c-a33886634632,Gemini,Yes,No
+290062255,Mistral,Yes,No
+290062255,GPT4,Yes,No
+290062255,Llama318B,Yes,Yes
+290062255,Llama31405B,Yes,To some extent
+290062255,Novice,Yes,No
+290062255,Sonnet,Yes,To some extent
+290062255,Phi3,Yes,No
+290062255,Expert,Yes,No
+290062255,Gemini,Yes,To some extent
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Llama318B,Yes,No
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Mistral,Yes,No
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Gemini,Yes,To some extent
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Phi3,No,No
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Sonnet,Yes,No
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Expert,Yes,No
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,Llama31405B,Yes,Yes
+1141-58f0b7bd-5458-486b-97dc-47b2c24b135b,GPT4,Yes,No
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Phi3,No,No
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Llama318B,Yes,Yes
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Expert,To some extent,No
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Llama31405B,Yes,Yes
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Mistral,Yes,No
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,GPT4,Yes,No
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Gemini,Yes,No
+4590-2dfed998-84db-4522-a21f-42be8c8d6602,Sonnet,Yes,No
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Expert,Yes,No
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Llama31405B,Yes,Yes
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Gemini,Yes,No
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Phi3,No,No
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,GPT4,Yes,Yes
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Sonnet,Yes,To some extent
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Mistral,Yes,Yes
+1070-1c90f257-d2dc-45ae-a14b-a1b2d94f673b,Llama318B,Yes,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Sonnet,Yes,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Expert,To some extent,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Gemini,Yes,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,GPT4,No,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Mistral,Yes,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Phi3,No,No
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Llama31405B,Yes,Yes
+3390-9816b348-576e-4239-8ea2-b6dad5d67aec,Llama318B,To some extent,Yes
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Expert,Yes,No
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,GPT4,Yes,No
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Mistral,Yes,Yes
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Llama318B,Yes,Yes
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Llama31405B,Yes,Yes
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Gemini,Yes,No
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Sonnet,Yes,No
+5780-2d7f22e8-1486-4555-9a5d-8d946507cb0a,Phi3,No,No
+413876945_1,Novice,Yes,No
+413876945_1,Sonnet,Yes,To some extent
+413876945_1,Llama31405B,Yes,To some extent
+413876945_1,Mistral,Yes,No
+413876945_1,Llama318B,Yes,No
+413876945_1,Phi3,Yes,Yes
+413876945_1,Gemini,Yes,No
+413876945_1,Expert,Yes,No
+413876945_1,GPT4,Yes,Yes
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Phi3,No,No
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Sonnet,Yes,To some extent
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,GPT4,Yes,No
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Mistral,Yes,No
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Gemini,Yes,No
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Llama318B,Yes,To some extent
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Llama31405B,Yes,Yes
+60-922f04fc-bdcd-4684-bb0c-34fd0fff3cad,Expert,Yes,No
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Phi3,No,No
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Expert,To some extent,No
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,GPT4,Yes,Yes
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Llama318B,To some extent,Yes
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Mistral,Yes,No
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Sonnet,Yes,No
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Llama31405B,Yes,No
+2670-fd034dec-df2f-4d2a-b72b-4259f37b1894,Gemini,Yes,No
+294929823_1,Expert,Yes,No
+294929823_1,Llama318B,Yes,No
+294929823_1,Novice,Yes,No
+294929823_1,Llama31405B,Yes,Yes
+294929823_1,Mistral,Yes,No
+294929823_1,GPT4,Yes,To some extent
+294929823_1,Phi3,Yes,Yes
+294929823_1,Sonnet,Yes,To some extent
+294929823_1,Gemini,Yes,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Sonnet,Yes,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Phi3,No,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Llama31405B,Yes,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Gemini,Yes,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Llama318B,Yes,Yes
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,GPT4,Yes,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Mistral,Yes,No
+3581-d59112ba-ff52-46dc-86dc-94c662b845fe,Expert,Yes,No
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Llama31405B,Yes,To some extent
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Sonnet,Yes,No
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Expert,Yes,No
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Phi3,No,No
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Gemini,To some extent,To some extent
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Mistral,Yes,No
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,GPT4,No,Yes
+232-a53cdc95-d429-4503-95b8-a22ddec0a735,Llama318B,Yes,No
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Llama318B,Yes,Yes
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Gemini,To some extent,No
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,GPT4,Yes,Yes
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Llama31405B,Yes,To some extent
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Sonnet,No,No
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Phi3,No,No
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Expert,No,No
+2510-8a954bd7-f92d-4e98-9453-4a58e8a4ef21,Mistral,Yes,Yes
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Phi3,No,No
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Expert,Yes,No
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Mistral,Yes,To some extent
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,GPT4,Yes,Yes
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Sonnet,Yes,No
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Llama31405B,Yes,Yes
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Llama318B,No,No
+4930-25dc558b-c67f-4bc5-88fa-f94f5fca0c82,Gemini,Yes,No
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Llama318B,Yes,Yes
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Expert,Yes,No
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Gemini,Yes,To some extent
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,GPT4,Yes,Yes
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Sonnet,Yes,No
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Llama31405B,Yes,No
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Mistral,Yes,No
+2250-e98e11c3-d2e2-44f8-aa7d-b9a81a65f11f,Phi3,No,No
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Llama31405B,Yes,Yes
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,GPT4,Yes,Yes
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Gemini,Yes,To some extent
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Phi3,Yes,No
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Expert,Yes,No
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Llama318B,Yes,Yes
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Sonnet,Yes,No
+5440-1c7bf65e-14a0-493a-beac-0561ac9c0158,Mistral,Yes,Yes
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Phi3,No,No
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Gemini,Yes,No
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Llama318B,Yes,Yes
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Llama31405B,Yes,No
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Expert,To some extent,No
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,GPT4,Yes,Yes
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Sonnet,Yes,No
+2960-1b2a2418-0cde-49ac-a084-59b55857c619,Mistral,Yes,Yes
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Sonnet,Yes,No
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Llama31405B,Yes,No
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Mistral,Yes,Yes
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Phi3,No,No
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Expert,Yes,No
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Gemini,Yes,No
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,GPT4,Yes,No
+740-dbc61730-3fdc-49b9-b928-c092000c5ca7,Llama318B,Yes,To some extent
+292861665_2,Llama31405B,Yes,To some extent
+292861665_2,GPT4,Yes,Yes
+292861665_2,Expert,Yes,Yes
+292861665_2,Novice,To some extent,No
+292861665_2,Phi3,Yes,Yes
+292861665_2,Mistral,Yes,Yes
+292861665_2,Sonnet,Yes,Yes
+292861665_2,Gemini,Yes,No
+292861665_2,Llama318B,Yes,Yes
+29254098,Llama31405B,Yes,Yes
+29254098,Novice,No,No
+29254098,Phi3,Yes,Yes
+29254098,GPT4,Yes,Yes
+29254098,Expert,Yes,No
+29254098,Mistral,To some extent,No
+29254098,Llama318B,Yes,Yes
+29254098,Gemini,Yes,Yes
+29254098,Sonnet,To some extent,To some extent
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Expert,Yes,No
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Sonnet,Yes,No
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,GPT4,Yes,Yes
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Mistral,Yes,No
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Phi3,No,No
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Llama31405B,Yes,No
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Llama318B,No,Yes
+5220-3bbc85a5-033e-4927-b2f3-3059a118aead,Gemini,No,Yes
+290101923,Expert,Yes,No
+290101923,Novice,Yes,Yes
+290101923,Phi3,Yes,No
+290101923,Llama31405B,Yes,To some extent
+290101923,Llama318B,Yes,No
+290101923,GPT4,Yes,No
+290101923,Sonnet,Yes,No
+290101923,Gemini,Yes,No
+290101923,Mistral,Yes,To some extent
+3891-9efea210-8209-4031-9136-82e119dc907c,Mistral,Yes,No
+3891-9efea210-8209-4031-9136-82e119dc907c,Phi3,No,No
+3891-9efea210-8209-4031-9136-82e119dc907c,Sonnet,Yes,No
+3891-9efea210-8209-4031-9136-82e119dc907c,Gemini,Yes,To some extent
+3891-9efea210-8209-4031-9136-82e119dc907c,Llama318B,Yes,No
+3891-9efea210-8209-4031-9136-82e119dc907c,Expert,To some extent,No
+3891-9efea210-8209-4031-9136-82e119dc907c,GPT4,No,No
+3891-9efea210-8209-4031-9136-82e119dc907c,Llama31405B,Yes,To some extent
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Sonnet,Yes,No
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Gemini,Yes,No
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Llama31405B,Yes,Yes
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Phi3,No,No
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Mistral,Yes,No
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Llama318B,Yes,To some extent
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,Expert,Yes,No
+644-70f6d15a-548c-4f21-83df-4a8a569f9f2b,GPT4,Yes,No
+241-ac046015-88df-4071-889e-cfb526f7b668,Expert,No,No
+241-ac046015-88df-4071-889e-cfb526f7b668,Llama318B,No,No
+241-ac046015-88df-4071-889e-cfb526f7b668,Gemini,No,No
+241-ac046015-88df-4071-889e-cfb526f7b668,GPT4,Yes,Yes
+241-ac046015-88df-4071-889e-cfb526f7b668,Phi3,No,No
+241-ac046015-88df-4071-889e-cfb526f7b668,Mistral,No,Yes
+241-ac046015-88df-4071-889e-cfb526f7b668,Sonnet,Yes,No
+241-ac046015-88df-4071-889e-cfb526f7b668,Llama31405B,Yes,Yes
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Expert,Yes,No
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Llama318B,To some extent,No
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,GPT4,Yes,No
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Gemini,Yes,No
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Llama31405B,Yes,Yes
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Sonnet,Yes,Yes
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Mistral,Yes,No
+5200-f4e1507a-b8df-4326-9f99-3224c3c68656,Phi3,No,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Sonnet,Yes,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Llama318B,Yes,Yes
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,GPT4,Yes,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Phi3,No,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Gemini,Yes,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Expert,Yes,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Llama31405B,To some extent,No
+5480-bf4a28ef-ee4e-4551-9459-85660c9a13ab,Mistral,Yes,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Llama31405B,No,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Phi3,No,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,GPT4,No,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Llama318B,No,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Sonnet,No,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Mistral,No,No
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Gemini,No,To some extent
+1843-fc591f99-8a8d-4384-bf97-026749ada9b3,Expert,No,No
+299011585,Llama318B,Yes,Yes
+299011585,Novice,To some extent,No
+299011585,Llama31405B,Yes,Yes
+299011585,Phi3,Yes,Yes
+299011585,Expert,Yes,No
+299011585,GPT4,Yes,Yes
+299011585,Mistral,Yes,No
+299011585,Sonnet,Yes,Yes
+299011585,Gemini,Yes,No
+616603016,Mistral,Yes,No
+616603016,Novice,Yes,Yes
+616603016,Llama31405B,Yes,Yes
+616603016,Phi3,Yes,Yes
+616603016,Sonnet,Yes,To some extent
+616603016,Gemini,Yes,No
+616603016,GPT4,Yes,Yes
+616603016,Llama318B,Yes,Yes
+616603016,Expert,Yes,Yes
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Mistral,Yes,No
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Phi3,No,No
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Gemini,Yes,No
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Sonnet,Yes,No
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Expert,No,No
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Llama31405B,Yes,Yes
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,Llama318B,Yes,Yes
+1990-60fb8cf6-06e1-4267-80c8-862885d63d9e,GPT4,To some extent,No
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Phi3,Yes,Yes
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Sonnet,Yes,Yes
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Llama318B,No,No
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Llama31405B,Yes,Yes
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Gemini,No,Yes
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Expert,To some extent,No
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,GPT4,Yes,No
+3572-36902c3d-6d42-4ce0-8637-3300277159f3,Mistral,To some extent,No
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Sonnet,Yes,To some extent
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Mistral,Yes,No
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Expert,To some extent,No
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,GPT4,Yes,No
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Phi3,No,No
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Llama31405B,Yes,To some extent
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Llama318B,Yes,No
+5560-b2e46b76-30f7-48c6-902f-331de089aa9a,Gemini,Yes,No
+285005713,Gemini,Yes,No
+285005713,Phi3,Yes,Yes
+285005713,GPT4,Yes,Yes
+285005713,Llama318B,Yes,Yes
+285005713,Expert,Yes,To some extent
+285005713,Mistral,Yes,No
+285005713,Sonnet,Yes,To some extent
+285005713,Llama31405B,Yes,Yes
+285005713,Novice,To some extent,No
+296362576,Mistral,Yes,No
+296362576,Phi3,Yes,Yes
+296362576,Sonnet,Yes,Yes
+296362576,GPT4,Yes,No
+296362576,Novice,No,No
+296362576,Expert,Yes,No
+296362576,Llama318B,Yes,Yes
+296362576,Llama31405B,Yes,No
+296362576,Gemini,Yes,To some extent
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Sonnet,Yes,To some extent
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Mistral,Yes,No
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,GPT4,Yes,Yes
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Phi3,Yes,No
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Llama318B,No,No
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Llama31405B,Yes,Yes
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Expert,No,Yes
+3711-05b6ce71-9710-4b83-8ad2-e207d306c73e,Gemini,Yes,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Expert,Yes,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Sonnet,Yes,Yes
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Phi3,No,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Llama31405B,Yes,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Mistral,Yes,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,GPT4,No,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Gemini,Yes,No
+1511-fcfd680a-6896-425a-81ff-e730f63b038b,Llama318B,No,No
+640470641,Llama31405B,Yes,Yes
+640470641,Llama318B,Yes,To some extent
+640470641,Sonnet,Yes,To some extent
+640470641,GPT4,Yes,No
+640470641,Expert,Yes,No
+640470641,Novice,To some extent,No
+640470641,Phi3,Yes,Yes
+640470641,Mistral,Yes,To some extent
+640470641,Gemini,Yes,To some extent
+292806733,Llama318B,Yes,Yes
+292806733,Sonnet,Yes,To some extent
+292806733,Llama31405B,Yes,Yes
+292806733,Phi3,Yes,Yes
+292806733,GPT4,Yes,No
+292806733,Expert,Yes,No
+292806733,Novice,Yes,No
+292806733,Mistral,Yes,No
+292806733,Gemini,Yes,To some extent
+413466571_1,GPT4,Yes,No
+413466571_1,Novice,To some extent,No
+413466571_1,Phi3,No,No
+413466571_1,Gemini,To some extent,No
+413466571_1,Llama31405B,Yes,Yes
+413466571_1,Mistral,No,No
+413466571_1,Expert,To some extent,Yes
+413466571_1,Llama318B,Yes,To some extent
+413466571_1,Sonnet,Yes,Yes
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Expert,Yes,No
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Sonnet,Yes,No
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,GPT4,Yes,Yes
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Phi3,No,No
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Gemini,Yes,No
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Llama318B,Yes,Yes
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Mistral,Yes,No
+3750-3e89df09-c015-47f0-839a-a500ff03e13f,Llama31405B,Yes,Yes
+2721-5902970b-2112-4b4c-992d-82014d134668,Sonnet,Yes,Yes
+2721-5902970b-2112-4b4c-992d-82014d134668,Gemini,Yes,Yes
+2721-5902970b-2112-4b4c-992d-82014d134668,Phi3,No,To some extent
+2721-5902970b-2112-4b4c-992d-82014d134668,Llama31405B,Yes,Yes
+2721-5902970b-2112-4b4c-992d-82014d134668,Llama318B,Yes,No
+2721-5902970b-2112-4b4c-992d-82014d134668,Mistral,Yes,Yes
+2721-5902970b-2112-4b4c-992d-82014d134668,Expert,Yes,No
+2721-5902970b-2112-4b4c-992d-82014d134668,GPT4,Yes,Yes
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Gemini,Yes,No
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,GPT4,Yes,No
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Phi3,No,No
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Mistral,Yes,No
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Sonnet,To some extent,Yes
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Llama318B,Yes,No
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Expert,Yes,No
+5762-13dd4e0f-c3e8-4067-afae-7166da5ae8c2,Llama31405B,Yes,To some extent
+429734363,GPT4,Yes,No
+429734363,Llama31405B,Yes,Yes
+429734363,Sonnet,Yes,No
+429734363,Expert,Yes,No
+429734363,Mistral,Yes,No
+429734363,Llama318B,No,Yes
+429734363,Novice,Yes,Yes
+429734363,Phi3,No,No
+429734363,Gemini,Yes,No
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Mistral,Yes,To some extent
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Phi3,No,No
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Gemini,Yes,No
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Sonnet,Yes,No
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Llama31405B,Yes,No
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Expert,Yes,No
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,Llama318B,Yes,Yes
+3133-117ac5ff-d27f-4a3a-8412-c405f08f3320,GPT4,Yes,Yes
+413466564,Phi3,Yes,Yes
+413466564,Sonnet,Yes,No
+413466564,Gemini,Yes,No
+413466564,Mistral,Yes,No
+413466564,Expert,Yes,No
+413466564,Llama31405B,Yes,Yes
+413466564,GPT4,Yes,Yes
+413466564,Llama318B,Yes,No
+413466564,Novice,Yes,No
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Llama318B,Yes,Yes
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Gemini,Yes,No
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Mistral,Yes,No
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Sonnet,Yes,No
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,GPT4,Yes,Yes
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Phi3,No,No
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Llama31405B,Yes,No
+2951-51f0e7eb-6000-4251-8377-2a8a7b448e4e,Expert,To some extent,No
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Mistral,Yes,No
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Gemini,Yes,No
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Llama31405B,Yes,Yes
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Phi3,No,No
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Expert,Yes,No
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Sonnet,Yes,No
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,Llama318B,Yes,Yes
+5760-12d861b7-02e6-42d3-acc5-fd9c300e049a,GPT4,Yes,Yes
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Mistral,To some extent,No
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Llama31405B,Yes,Yes
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Phi3,No,No
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Gemini,No,No
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Sonnet,Yes,To some extent
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Llama318B,To some extent,No
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,GPT4,Yes,No
+2531-76ace74b-da0b-4d39-a9fb-a65d7d0a42c8,Expert,Yes,No
+100-540b6009-5e72-4f5d-88a3-99616e471081,Llama31405B,Yes,Yes
+100-540b6009-5e72-4f5d-88a3-99616e471081,GPT4,Yes,Yes
+100-540b6009-5e72-4f5d-88a3-99616e471081,Sonnet,Yes,No
+100-540b6009-5e72-4f5d-88a3-99616e471081,Expert,Yes,No
+100-540b6009-5e72-4f5d-88a3-99616e471081,Phi3,No,No
+100-540b6009-5e72-4f5d-88a3-99616e471081,Llama318B,To some extent,No
+100-540b6009-5e72-4f5d-88a3-99616e471081,Mistral,Yes,To some extent
+100-540b6009-5e72-4f5d-88a3-99616e471081,Gemini,Yes,No
+292827169_1,Llama31405B,Yes,Yes
+292827169_1,Phi3,Yes,Yes
+292827169_1,Llama318B,Yes,To some extent
+292827169_1,Novice,Yes,Yes
+292827169_1,Expert,Yes,No
+292827169_1,Mistral,Yes,No
+292827169_1,GPT4,Yes,Yes
+292827169_1,Sonnet,Yes,No
+292827169_1,Gemini,Yes,No
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Sonnet,No,Yes
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Mistral,Yes,No
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Llama318B,Yes,No
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Expert,Yes,No
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Gemini,Yes,No
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,GPT4,Yes,Yes
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Phi3,No,No
+1871-8de21ad5-1678-4edd-b81f-236a276b412c,Llama31405B,Yes,Yes
+632146541,Phi3,Yes,No
+632146541,GPT4,Yes,No
+632146541,Llama318B,Yes,No
+632146541,Sonnet,Yes,To some extent
+632146541,Expert,Yes,To some extent
+632146541,Llama31405B,Yes,No
+632146541,Mistral,Yes,No
+632146541,Novice,No,No
+632146541,Gemini,Yes,Yes
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Gemini,Yes,No
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Mistral,Yes,No
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Phi3,No,No
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Llama31405B,Yes,Yes
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Sonnet,To some extent,No
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Llama318B,Yes,To some extent
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,GPT4,Yes,Yes
+4430-62a96c6d-44e5-48dd-b877-7049d543065d,Expert,Yes,Yes
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,GPT4,No,No
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Llama31405B,Yes,No
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Expert,No,No
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Sonnet,Yes,Yes
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Phi3,No,No
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Llama318B,No,Yes
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Mistral,Yes,Yes
+4421-983a3c21-5b47-4c9d-88ec-1bf2ce245ca5,Gemini,No,To some extent
+294854344,Novice,Yes,No
+294854344,Expert,Yes,Yes
+294854344,Sonnet,Yes,To some extent
+294854344,Llama318B,Yes,To some extent
+294854344,Phi3,Yes,No
+294854344,Llama31405B,Yes,Yes
+294854344,Mistral,Yes,No
+294854344,GPT4,Yes,Yes
+294854344,Gemini,Yes,No
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Llama31405B,Yes,Yes
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Mistral,Yes,Yes
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Gemini,No,No
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Sonnet,To some extent,Yes
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Llama318B,Yes,Yes
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Phi3,No,No
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,Expert,To some extent,No
+2910-5bfc4a76-4444-458d-b5c0-ab54dc968b60,GPT4,Yes,Yes
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Llama31405B,Yes,Yes
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Mistral,Yes,Yes
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Sonnet,Yes,Yes
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,GPT4,Yes,Yes
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Gemini,Yes,No
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Llama318B,Yes,No
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Phi3,No,No
+3640-95399f53-032f-403f-9d2e-b2751e05f87c,Expert,To some extent,No
+429629538_2,Phi3,No,No
+429629538_2,Gemini,Yes,No
+429629538_2,Expert,Yes,No
+429629538_2,Novice,No,No
+429629538_2,Sonnet,Yes,Yes
+429629538_2,GPT4,Yes,Yes
+429629538_2,Llama31405B,To some extent,Yes
+429629538_2,Llama318B,Yes,Yes
+429629538_2,Mistral,To some extent,To some extent
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Llama318B,Yes,Yes
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Gemini,Yes,To some extent
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,GPT4,Yes,Yes
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Phi3,No,No
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Expert,Yes,Yes
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Sonnet,No,No
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Mistral,Yes,Yes
+3953-bed62608-a7c7-4feb-b601-c3b157cdff23,Llama31405B,Yes,Yes
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Llama318B,Yes,To some extent
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Llama31405B,Yes,No
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Gemini,Yes,Yes
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,GPT4,Yes,Yes
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Phi3,No,No
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Mistral,Yes,No
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Sonnet,Yes,To some extent
+4050-332ad0fe-8db0-4512-bb66-2e9a06409d3e,Expert,Yes,No
+614271245_2,GPT4,Yes,Yes
+614271245_2,Phi3,Yes,No
+614271245_2,Novice,To some extent,No
+614271245_2,Gemini,Yes,No
+614271245_2,Sonnet,Yes,No
+614271245_2,Llama31405B,Yes,No
+614271245_2,Llama318B,Yes,No
+614271245_2,Mistral,Yes,No
+614271245_2,Expert,To some extent,No
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Expert,Yes,Yes
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Llama318B,Yes,No
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Phi3,To some extent,To some extent
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Llama31405B,Yes,No
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Mistral,Yes,Yes
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Sonnet,Yes,To some extent
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,GPT4,Yes,No
+4211-015f58b6-1408-417d-aa60-2a069b1a8806,Gemini,Yes,No
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,GPT4,Yes,No
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Sonnet,Yes,No
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Phi3,No,No
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Gemini,Yes,No
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Llama318B,Yes,No
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Llama31405B,Yes,To some extent
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Mistral,Yes,To some extent
+5722-bc3658a3-ba86-43c0-a3f3-5a42e167e492,Expert,Yes,No
+616653340,Gemini,Yes,No
+616653340,Sonnet,Yes,To some extent
+616653340,Expert,Yes,No
+616653340,GPT4,Yes,Yes
+616653340,Phi3,No,Yes
+616653340,Novice,Yes,Yes
+616653340,Mistral,Yes,To some extent
+616653340,Llama31405B,Yes,Yes
+616653340,Llama318B,Yes,Yes
+413845023,Llama31405B,Yes,Yes
+413845023,Expert,Yes,No
+413845023,Novice,To some extent,No
+413845023,Mistral,Yes,No
+413845023,Sonnet,Yes,No
+413845023,GPT4,Yes,No
+413845023,Phi3,Yes,Yes
+413845023,Llama318B,Yes,Yes
+413845023,Gemini,Yes,No
+413876945_2,Llama318B,Yes,No
+413876945_2,Mistral,Yes,No
+413876945_2,GPT4,Yes,Yes
+413876945_2,Expert,Yes,Yes
+413876945_2,Gemini,Yes,No
+413876945_2,Sonnet,Yes,Yes
+413876945_2,Llama31405B,Yes,Yes
+413876945_2,Phi3,Yes,Yes
+413876945_2,Novice,Yes,No
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Sonnet,Yes,Yes
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Llama318B,Yes,No
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Llama31405B,Yes,Yes
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,GPT4,Yes,No
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Phi3,No,No
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Expert,Yes,Yes
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Mistral,No,No
+1150-e9af6cd1-2d94-48e0-b535-62217c1ffaff,Gemini,Yes,No
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Llama31405B,Yes,Yes
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Expert,Yes,Yes
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Mistral,Yes,No
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Llama318B,Yes,Yes
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,GPT4,Yes,Yes
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Phi3,No,No
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Sonnet,Yes,No
+3250-d171f1f2-93a5-4b54-b997-98842dc0dbb9,Gemini,No,No
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Llama31405B,No,Yes
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Gemini,No,No
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Mistral,Yes,Yes
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Llama318B,Yes,Yes
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Expert,No,No
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Sonnet,No,No
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,GPT4,No,No
+2542-22f36986-95dc-4ccb-b98d-ff52e85d4851,Phi3,No,To some extent
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Llama318B,Yes,Yes
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Sonnet,Yes,Yes
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Phi3,No,No
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Mistral,Yes,Yes
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Expert,To some extent,No
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,GPT4,Yes,Yes
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Gemini,Yes,No
+5280-6ffe8c85-b076-41b9-b4a4-f33c7bcf6309,Llama31405B,Yes,Yes
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Llama318B,No,To some extent
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,GPT4,Yes,Yes
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Gemini,Yes,No
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Expert,Yes,Yes
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Llama31405B,Yes,Yes
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Mistral,Yes,No
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Sonnet,Yes,No
+144-90ea89e1-86c9-4ed5-9a9c-d4ee953faf85,Phi3,No,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Sonnet,Yes,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Llama31405B,Yes,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,GPT4,Yes,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Mistral,Yes,Yes
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Llama318B,No,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Gemini,Yes,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Expert,Yes,No
+5752-777381cf-e363-4ea9-8638-482ac9ad22e5,Phi3,No,No
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Gemini,Yes,No
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Llama318B,To some extent,No
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Expert,Yes,To some extent
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Sonnet,Yes,No
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Mistral,Yes,No
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Llama31405B,Yes,Yes
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,GPT4,Yes,Yes
+4020-ce33dfeb-2caa-4e37-ac71-74c43908b743,Phi3,No,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,Sonnet,To some extent,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,Expert,To some extent,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,Mistral,Yes,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,Gemini,Yes,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,GPT4,Yes,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,Llama31405B,Yes,Yes
+3381-593e37e2-f543-47db-afb6-611901d318a2,Phi3,No,No
+3381-593e37e2-f543-47db-afb6-611901d318a2,Llama318B,No,Yes
+41118288,Phi3,Yes,No
+41118288,Mistral,No,No
+41118288,Novice,No,No
+41118288,Llama318B,Yes,To some extent
+41118288,Expert,Yes,No
+41118288,GPT4,Yes,No
+41118288,Llama31405B,Yes,No
+41118288,Sonnet,Yes,Yes
+41118288,Gemini,Yes,No
+293972340,Expert,Yes,To some extent
+293972340,Llama318B,Yes,To some extent
+293972340,Phi3,No,No
+293972340,Novice,No,Yes
+293972340,GPT4,Yes,Yes
+293972340,Gemini,To some extent,No
+293972340,Mistral,To some extent,No
+293972340,Sonnet,To some extent,To some extent
+293972340,Llama31405B,Yes,Yes
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,GPT4,Yes,No
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Gemini,Yes,No
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Sonnet,Yes,Yes
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Phi3,No,No
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Expert,To some extent,No
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Llama318B,Yes,Yes
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Mistral,Yes,No
+4551-8c811b85-29be-4af4-901b-e1720a4c9345,Llama31405B,Yes,Yes
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Gemini,Yes,No
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,GPT4,Yes,No
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Sonnet,Yes,To some extent
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Expert,Yes,No
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Mistral,Yes,No
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Llama31405B,Yes,To some extent
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Llama318B,Yes,No
+1180-90fbed3b-c1b9-4763-b89c-dac8d5b4f9de,Phi3,No,No
+296399925_2,Llama31405B,Yes,Yes
+296399925_2,GPT4,Yes,No
+296399925_2,Mistral,Yes,No
+296399925_2,Phi3,Yes,Yes
+296399925_2,Llama318B,Yes,Yes
+296399925_2,Novice,To some extent,No
+296399925_2,Expert,Yes,No
+296399925_2,Sonnet,Yes,No
+296399925_2,Gemini,Yes,No
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Phi3,No,No
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Mistral,Yes,To some extent
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Sonnet,Yes,Yes
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Llama318B,Yes,To some extent
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Llama31405B,Yes,Yes
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Expert,Yes,No
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,Gemini,Yes,No
+330-44d1126f-a8b4-43d8-8ed5-4b0e80ec58ae,GPT4,Yes,No
+411172030_2,Expert,Yes,To some extent
+411172030_2,Sonnet,Yes,To some extent
+411172030_2,Llama31405B,Yes,Yes
+411172030_2,Novice,To some extent,No
+411172030_2,Phi3,Yes,No
+411172030_2,Mistral,Yes,No
+411172030_2,GPT4,Yes,Yes
+411172030_2,Llama318B,Yes,To some extent
+411172030_2,Gemini,Yes,To some extent
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Sonnet,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,GPT4,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Mistral,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Expert,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Phi3,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Llama318B,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Llama31405B,Yes,No
+4121-49239ebd-fe9e-495d-bb80-6d7a2489b354,Gemini,Yes,No
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Mistral,Yes,No
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Llama31405B,Yes,To some extent
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Phi3,No,No
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,GPT4,Yes,Yes
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Expert,Yes,Yes
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Gemini,Yes,No
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Llama318B,Yes,No
+1311-8855cb11-3c53-4da3-a2dc-fd1f7289a631,Sonnet,Yes,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Llama31405B,Yes,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Mistral,Yes,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Llama318B,No,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Sonnet,Yes,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,GPT4,Yes,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Gemini,Yes,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Phi3,No,No
+4983-21a72bb6-09e7-4d6e-8f71-ae97f4d88b77,Expert,Yes,Yes
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Llama31405B,Yes,No
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,GPT4,Yes,To some extent
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Gemini,No,No
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Llama318B,To some extent,No
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Sonnet,Yes,No
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Phi3,No,No
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Expert,Yes,No
+4431-e8e613c5-3522-4276-99f6-41c1fa77a5aa,Mistral,Yes,No
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Expert,Yes,No
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Llama318B,Yes,Yes
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Sonnet,Yes,No
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Gemini,Yes,No
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,GPT4,Yes,Yes
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Llama31405B,Yes,Yes
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Mistral,Yes,No
+3783-f9f84ae0-3599-4d34-8745-c555bcdcbbe9,Phi3,No,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Llama318B,Yes,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,GPT4,Yes,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Expert,Yes,Yes
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Phi3,No,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Mistral,Yes,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Sonnet,Yes,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Llama31405B,Yes,No
+1020-ec5112dc-ad52-4519-a558-fd35c8569e7a,Gemini,Yes,To some extent
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Gemini,Yes,No
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Mistral,Yes,Yes
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Llama31405B,Yes,Yes
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Phi3,No,No
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Llama318B,Yes,Yes
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Sonnet,Yes,No
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,Expert,Yes,Yes
+4470-eca5b354-0484-4ef1-8c9a-8aff450488d5,GPT4,Yes,No
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Expert,To some extent,No
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Llama31405B,Yes,Yes
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Llama318B,No,No
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Sonnet,No,To some extent
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,GPT4,Yes,Yes
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Phi3,No,No
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Mistral,To some extent,To some extent
+145-232cdfd3-a855-443f-acd3-fc189811e0b4,Gemini,No,No
+4260-7254b799-22a5-4886-b444-527ca061ae67,Sonnet,Yes,No
+4260-7254b799-22a5-4886-b444-527ca061ae67,Llama31405B,Yes,Yes
+4260-7254b799-22a5-4886-b444-527ca061ae67,Expert,Yes,No
+4260-7254b799-22a5-4886-b444-527ca061ae67,Phi3,No,No
+4260-7254b799-22a5-4886-b444-527ca061ae67,Mistral,Yes,Yes
+4260-7254b799-22a5-4886-b444-527ca061ae67,GPT4,Yes,Yes
+4260-7254b799-22a5-4886-b444-527ca061ae67,Llama318B,Yes,No
+4260-7254b799-22a5-4886-b444-527ca061ae67,Gemini,Yes,No
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Gemini,Yes,No
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Llama31405B,Yes,Yes
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Llama318B,To some extent,No
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,GPT4,Yes,Yes
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Sonnet,Yes,No
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Expert,Yes,No
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Mistral,Yes,No
+4451-21b56e8b-cda3-4edc-980b-9bd23081abea,Phi3,No,No
+3550-777af81b-714c-4a12-b433-6193a30a3da0,GPT4,Yes,Yes
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Sonnet,Yes,No
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Llama318B,Yes,Yes
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Phi3,To some extent,No
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Mistral,Yes,Yes
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Expert,Yes,Yes
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Gemini,Yes,No
+3550-777af81b-714c-4a12-b433-6193a30a3da0,Llama31405B,Yes,Yes
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Llama31405B,Yes,No
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Phi3,No,No
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Expert,Yes,No
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Gemini,Yes,To some extent
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,GPT4,Yes,Yes
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Llama318B,Yes,No
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Mistral,Yes,Yes
+1490-cc82c3fe-3e61-4189-acda-2138219edee1,Sonnet,Yes,No
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Mistral,Yes,Yes
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Llama318B,Yes,No
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,GPT4,Yes,No
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Expert,Yes,Yes
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Sonnet,Yes,To some extent
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Phi3,No,No
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Llama31405B,Yes,No
+5421-75ca3c9e-3dfb-46f7-affe-9dc6e576a658,Gemini,Yes,No
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Phi3,No,No
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,GPT4,Yes,No
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Llama31405B,Yes,Yes
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Llama318B,Yes,Yes
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Expert,No,No
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Mistral,Yes,No
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Sonnet,Yes,To some extent
+881-bd74ac3b-f806-44fa-8f04-b510fd109ab7,Gemini,Yes,No
+296399925_1,Gemini,Yes,No
+296399925_1,Expert,Yes,No
+296399925_1,Mistral,Yes,No
+296399925_1,Llama318B,Yes,Yes
+296399925_1,GPT4,Yes,Yes
+296399925_1,Novice,To some extent,No
+296399925_1,Llama31405B,Yes,Yes
+296399925_1,Sonnet,Yes,Yes
+296399925_1,Phi3,Yes,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Phi3,No,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Sonnet,Yes,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Expert,Yes,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,GPT4,Yes,Yes
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Llama31405B,Yes,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Gemini,Yes,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Llama318B,Yes,No
+2231-0bef5e1a-8ae0-4e43-a73e-efe1cb159af7,Mistral,Yes,No
+618767316,Llama318B,Yes,To some extent
+618767316,GPT4,No,Yes
+618767316,Expert,No,Yes
+618767316,Novice,Yes,Yes
+618767316,Mistral,To some extent,No
+618767316,Sonnet,No,No
+618767316,Llama31405B,No,No
+618767316,Gemini,Yes,No
+618767316,Phi3,No,No
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,GPT4,Yes,Yes
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Llama31405B,Yes,Yes
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Phi3,No,Yes
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Gemini,No,No
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Mistral,Yes,No
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Llama318B,Yes,Yes
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Expert,Yes,No
+4151-e8450254-b2ec-4f1b-bba8-9f0e9e33dc78,Sonnet,Yes,Yes
+2963625105,Mistral,Yes,No
+2963625105,Gemini,Yes,No
+2963625105,Sonnet,Yes,Yes
+2963625105,Novice,No,No
+2963625105,Phi3,No,No
+2963625105,Llama318B,Yes,Yes
+2963625105,GPT4,Yes,Yes
+2963625105,Expert,Yes,Yes
+2963625105,Llama31405B,Yes,Yes
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Llama31405B,Yes,Yes
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Mistral,Yes,Yes
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,GPT4,Yes,Yes
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Phi3,Yes,Yes
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Llama318B,Yes,Yes
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Expert,Yes,No
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Gemini,Yes,No
+3531-50ba510d-34e7-401f-bbd5-2397aca918a2,Sonnet,No,Yes
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Llama31405B,Yes,Yes
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Expert,Yes,No
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Sonnet,Yes,No
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,GPT4,Yes,Yes
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Mistral,Yes,Yes
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Gemini,Yes,To some extent
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Phi3,No,No
+612-259f866a-0c6d-41c5-8a31-581518a44c4c,Llama318B,Yes,Yes
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Gemini,Yes,No
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Mistral,Yes,To some extent
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,GPT4,Yes,No
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Llama31405B,Yes,Yes
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Phi3,No,No
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Expert,Yes,Yes
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Llama318B,Yes,Yes
+790-86a2224d-29a2-4f8d-ad73-f5b5f6285f57,Sonnet,Yes,No
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Mistral,Yes,Yes
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Gemini,Yes,No
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,GPT4,Yes,Yes
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Expert,Yes,No
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Sonnet,Yes,No
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Llama318B,Yes,No
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Phi3,No,No
+3882-b54fb9d9-a24c-4603-ba16-8eff77e8cdb1,Llama31405B,Yes,Yes
+405563829_1,Novice,No,No
+405563829_1,Expert,Yes,Yes
+405563829_1,Phi3,Yes,Yes
+405563829_1,GPT4,Yes,Yes
+405563829_1,Llama318B,Yes,Yes
+405563829_1,Llama31405B,Yes,No
+405563829_1,Sonnet,Yes,Yes
+405563829_1,Mistral,Yes,No
+405563829_1,Gemini,Yes,No
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Gemini,Yes,To some extent
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,GPT4,Yes,Yes
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Llama31405B,Yes,Yes
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Mistral,Yes,No
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Phi3,No,No
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Sonnet,Yes,To some extent
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Expert,Yes,No
+5910-25617a89-a4ae-47bb-8812-d6b39fa4e691,Llama318B,To some extent,Yes

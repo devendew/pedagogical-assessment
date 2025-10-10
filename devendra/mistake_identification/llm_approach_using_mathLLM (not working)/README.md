@@ -2,6 +2,24 @@
 
 This directory contains a comprehensive notebook for evaluating mistake identification in pedagogical conversations using state-of-the-art LLMs.
 
+## 🎯 Current Results (72.6% Accuracy!)
+
+**Latest Run**: 10 conversations, 84 tutor responses
+
+| Metric | Value |
+|--------|-------|
+| **Overall Accuracy** | **72.6%** |
+| **F1-Score (Weighted)** | **74.75%** |
+| **"Yes" Class F1-Score** | **84.3%** |
+| **"Yes" Class Recall** | **76%** (51/67) |
+
+### Top Performing Sources
+- GPT4 & Llama31405B: **100% accuracy**
+- Llama318B & Phi3: **90% accuracy**  
+- Mistral: **80% accuracy**
+
+📊 See `RESULTS_SUMMARY.md` for detailed analysis.
+
 ## Overview
 
 The notebook `mistake_llm.ipynb` implements a complete pipeline that:
