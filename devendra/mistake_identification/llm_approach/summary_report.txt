@@ -4,42 +4,42 @@ MISTAKE IDENTIFICATION EVALUATION - SUMMARY REPORT
 ================================================================================
 
 1. DATASET INFORMATION
-   - Total Conversations Processed: 10
-   - Total Evaluations: 84
+   - Total Conversations Processed: 300
+   - Total Evaluations: 2476
    - Sources Evaluated: Expert, GPT4, Gemini, Llama31405B, Llama318B, Mistral, Novice, Phi3, Sonnet
 
 2. OVERALL PERFORMANCE
-   - Accuracy: 0.7381 (73.81%)
-   - F1 Score (Macro): 0.5162
-   - F1 Score (Weighted): 0.7569
-   - Agreement Rate: 73.81%
+   - Accuracy: 0.7100 (71.00%)
+   - F1 Score (Macro): 0.4832
+   - F1 Score (Weighted): 0.7284
+   - Agreement Rate: 71.00%
 
 3. PER-CLASS PERFORMANCE (F1 Scores)
-   - Yes: 0.8525
-   - To some extent: 0.1667
-   - No: 0.5294
+   - Yes: 0.8274
+   - To some extent: 0.1284
+   - No: 0.4939
 
 4. LABEL DISTRIBUTION
    Actual:
-   - Yes: 67
-   - To some extent: 7
-   - No: 10
+   - Yes: 1932
+   - To some extent: 174
+   - No: 370
 
    Predicted:
-   - Yes: 55
-   - To some extent: 5
-   - No: 24
+   - Yes: 1636
+   - To some extent: 153
+   - No: 687
 
 5. TOP PERFORMING SOURCES (by Accuracy)
-   2. GPT4: 1.0000 (10 samples)
-   4. Llama31405B: 1.0000 (10 samples)
-   8. Phi3: 0.9000 (10 samples)
-   5. Llama318B: 0.9000 (10 samples)
-   6. Mistral: 0.9000 (10 samples)
+   2. GPT4: 0.9267 (300 samples)
+   4. Llama31405B: 0.9033 (300 samples)
+   8. Phi3: 0.8267 (300 samples)
+   9. Sonnet: 0.7800 (300 samples)
+   5. Llama318B: 0.7500 (300 samples)
 
 6. KEY INSIGHTS
-   - Total Correct Predictions: 62
-   - Total Incorrect Predictions: 22
+   - Total Correct Predictions: 1758
+   - Total Incorrect Predictions: 718
    - Most Common Error: ('Yes', 'No')
 
 7. OUTPUT FILES GENERATED
