@@ -1,0 +1,23 @@
+conversation_id,source,actual,predicted,response,agreement
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Sonnet,Yes,No,"Great, you've correctly identified the cost of the meat, now let's focus on calculating the total cost of meat for all the sandwiches needed.",False
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Llama318B,Yes,No,"Now that we know the cost of 1 pound of meat is $7.00, we can use this information to find the correct total cost for the meat and cheese needed for the muffaletta sandwiches.",False
+221-362eb11a-f190-42a6-b2a4-985fafdcfa9e,Expert,Yes,To some extent,"And if there are 5 sandwiches, what is the meat cost?",False
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Sonnet,To some extent,No,"I see where you're going with this, but let's take a closer look at how we calculate the total after both harvests, not just the second harvest alone.",False
+4642-e2ccfa55-280b-421c-9245-25ff56e3f33e,Expert,Yes,No,No. What is 20% of 20?,False
+258053434,Sonnet,Yes,No,"Let's double-check that: 3^3 means 3 multiplied by itself three times, so it's 3 x 3 x 3, which equals 27.",False
+258053434,Novice,Yes,No,"That was a good try. An exponent is a number or letter written above and to the right of a mathematical expression called the base. It indicates that the base is to be raised to a certain power. 3 is the base and 3 is the exponent or power. So, you have to multiply 3 for 3 times. Good work so far.",False
+258053434,Gemini,Yes,To some extent,"Remember, 3 to the power of 3 means 3 multiplied by itself three times: 3 x 3 x 3.",False
+258053434,Mistral,Yes,To some extent,"""Remember, 3^3 means 3 multiplied by itself 3 times, which is 3 * 3 * 3.""",False
+258053434,Expert,Yes,No,Great try! You solved the problem 3x3. Can you recall what an exponent does to a number?,False
+429563766,Novice,Yes,No,Please recheck your answer.,False
+429563766,Expert,Yes,No,Can you double check that? You can do 8 + 18 and see if you get 25.,False
+2490-377791e8-3745-4eca-bea1-d07b6eb67afe,Expert,To some extent,No,ok let us use the information to help us what was her gross revenue this week?,False
+2771-097c0756-e6df-4b75-8fd2-19024c173cb7,Expert,Yes,No,So we start with 50 minus 45,False
+416999530,Expert,Yes,No,Great try! Let's try adding the ones place first.,False
+416999530,Gemini,Yes,To some extent,"You're close!  Remember, the ""Ar"" stands for Area.  We need to find the total space inside the shape, not just add the length and width.",False
+416999530,Novice,To some extent,No,Good try! Please recheck your answer.,False
+3260-394d7d67-8e4d-4847-87bb-f792e382524f,Expert,Yes,No,12 downstairs + 8 upstairs.,False
+3121-6e8e5a1f-707a-47bd-982d-2c2529101bce,Expert,To some extent,No,Are you sure he can lift 80kg per hand?,False
+292861665_1,Sonnet,To some extent,Yes,"That's an interesting answer, can you walk me through how you got 1,512 so we can check your steps together?",False
+292861665_1,Novice,To some extent,No,That was a very good try.,False
+292861665_1,Gemini,Yes,No,"That's a great try! Remember, when adding, we look for the total value.  Let's try breaking down 36 and 42 into tens and ones to help us add them correctly.",False

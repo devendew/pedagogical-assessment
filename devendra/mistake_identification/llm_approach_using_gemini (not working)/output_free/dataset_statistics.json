@@ -1,0 +1,23 @@
+[
+  {
+    "total_conversations": 10,
+    "problems_with_answers": 6,
+    "total_responses": 84,
+    "evaluations_complete": 84,
+    "agreement_with_human": {
+      "yes": 33,
+      "no": 51,
+      "partial": 0
+    },
+    "mistake_identification_distribution": {
+      "Yes": 29,
+      "No": 4,
+      "To some extent": 3
+    },
+    "providing_guidance_distribution": {
+      "Yes": 25,
+      "No": 11,
+      "To some extent": 0
+    }
+  }
+]

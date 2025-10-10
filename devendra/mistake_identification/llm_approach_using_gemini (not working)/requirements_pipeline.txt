@@ -1,0 +1,11 @@
+# Requirements for Pedagogical Assessment Pipeline
+
+# LLM APIs
+openai>=1.12.0
+anthropic>=0.18.0
+
+# Data processing
+tqdm>=4.66.0
+
+# Standard library (already included in Python)
+# json, re, pathlib, random, time, typing
