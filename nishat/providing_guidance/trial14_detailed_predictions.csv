@@ -1,0 +1,373 @@
+true_label,predicted_label,true_label_id,predicted_label_id,correct
+Yes,Yes,0,0,True
+No,To some extent,2,1,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,To some extent,0,1,False
+Yes,No,0,2,False
+To some extent,No,1,2,False
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+No,Yes,2,0,False
+Yes,To some extent,0,1,False
+To some extent,No,1,2,False
+Yes,To some extent,0,1,False
+No,No,2,2,True
+To some extent,To some extent,1,1,True
+No,No,2,2,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+To some extent,To some extent,1,1,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+To some extent,Yes,1,0,False
+No,No,2,2,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+To some extent,No,1,2,False
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+No,No,2,2,True
+No,Yes,2,0,False
+Yes,To some extent,0,1,False
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+No,No,2,2,True
+No,No,2,2,True
+Yes,No,0,2,False
+No,No,2,2,True
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+No,Yes,2,0,False
+To some extent,No,1,2,False
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+To some extent,Yes,1,0,False
+Yes,No,0,2,False
+No,No,2,2,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+No,No,2,2,True
+Yes,To some extent,0,1,False
+No,No,2,2,True
+To some extent,Yes,1,0,False
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,No,0,2,False
+Yes,To some extent,0,1,False
+Yes,To some extent,0,1,False
+To some extent,To some extent,1,1,True
+No,To some extent,2,1,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+To some extent,Yes,1,0,False
+To some extent,To some extent,1,1,True
+Yes,To some extent,0,1,False
+No,No,2,2,True
+No,Yes,2,0,False
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,No,1,2,False
+To some extent,No,1,2,False
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+To some extent,To some extent,1,1,True
+To some extent,Yes,1,0,False
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+No,Yes,2,0,False
+Yes,No,0,2,False
+To some extent,To some extent,1,1,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+No,No,2,2,True
+Yes,To some extent,0,1,False
+No,Yes,2,0,False
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+To some extent,No,1,2,False
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+To some extent,To some extent,1,1,True
+Yes,To some extent,0,1,False
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+No,Yes,2,0,False
+No,To some extent,2,1,False
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,To some extent,2,1,False
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,No,1,2,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,To some extent,0,1,False
+Yes,To some extent,0,1,False
+To some extent,No,1,2,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+To some extent,Yes,1,0,False
+No,Yes,2,0,False
+To some extent,Yes,1,0,False
+To some extent,To some extent,1,1,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+To some extent,To some extent,1,1,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+No,No,2,2,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+To some extent,Yes,1,0,False
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+To some extent,To some extent,1,1,True
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+No,Yes,2,0,False
+No,Yes,2,0,False
+No,Yes,2,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+No,No,2,2,True
+Yes,No,0,2,False
+No,Yes,2,0,False
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+To some extent,To some extent,1,1,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+To some extent,Yes,1,0,False
+To some extent,Yes,1,0,False
+Yes,To some extent,0,1,False
+No,Yes,2,0,False
+To some extent,Yes,1,0,False
+No,To some extent,2,1,False
+No,Yes,2,0,False
+No,No,2,2,True
+Yes,No,0,2,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+No,To some extent,2,1,False
+Yes,Yes,0,0,True
+Yes,No,0,2,False
+No,No,2,2,True
+Yes,Yes,0,0,True
+No,No,2,2,True
+Yes,Yes,0,0,True
+To some extent,Yes,1,0,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,To some extent,0,1,False
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+Yes,Yes,0,0,True
+No,Yes,2,0,False
+No,No,2,2,True
+To some extent,To some extent,1,1,True
+Yes,To some extent,0,1,False
+Yes,To some extent,0,1,False
+No,No,2,2,True

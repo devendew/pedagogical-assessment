@@ -1,0 +1,117 @@
+{
+    "best_strategy": "weighted_average_60_40",
+    "best_strategy_description": "0.6 Trial14 + 0.4 HEM",
+    "improvement_over_best_solo": {
+        "absolute": 0.030294823165166407,
+        "percentage": 5.348662281985595
+    },
+    "baseline_scores": {
+        "trial14": {
+            "f1_macro": 0.5647,
+            "f1_yes": 0.6979,
+            "f1_to_some_extent": 0.4051,
+            "f1_no": 0.5912,
+            "accuracy": 0.6129
+        },
+        "hem": {
+            "f1_macro": 0.5664,
+            "f1_yes": 0.6908,
+            "f1_to_some_extent": 0.4072,
+            "f1_no": 0.6012,
+            "accuracy": 0.6075
+        },
+        "best_solo": 0.5664
+    },
+    "all_strategies": {
+        "simple_average": {
+            "description": "Equal weight (0.5 Trial14 + 0.5 HEM)",
+            "metrics": {
+                "accuracy": 0.6370967741935484,
+                "f1_macro": 0.5943676684321603,
+                "f1_weighted": 0.6395366072720938,
+                "f1_yes": 0.7166276346604216,
+                "f1_to_some_extent": 0.43902439024390244,
+                "f1_no": 0.6274509803921569,
+                "precision_yes": 0.7083333333333334,
+                "precision_to_some_extent": 0.4090909090909091,
+                "precision_no": 0.7058823529411765,
+                "recall_yes": 0.7251184834123223,
+                "recall_to_some_extent": 0.47368421052631576,
+                "recall_no": 0.5647058823529412
+            },
+            "vs_best_solo": 0.027967668432160253
+        },
+        "weighted_average_60_40": {
+            "description": "0.6 Trial14 + 0.4 HEM",
+            "metrics": {
+                "accuracy": 0.6370967741935484,
+                "f1_macro": 0.5966948231651664,
+                "f1_weighted": 0.6404085689183547,
+                "f1_yes": 0.7156398104265402,
+                "f1_to_some_extent": 0.4550898203592814,
+                "f1_no": 0.6193548387096774,
+                "precision_yes": 0.7156398104265402,
+                "precision_to_some_extent": 0.4175824175824176,
+                "precision_no": 0.6857142857142857,
+                "recall_yes": 0.7156398104265402,
+                "recall_to_some_extent": 0.5,
+                "recall_no": 0.5647058823529412
+            },
+            "vs_best_solo": 0.030294823165166407
+        },
+        "weighted_average_40_60": {
+            "description": "0.4 Trial14 + 0.6 HEM",
+            "metrics": {
+                "accuracy": 0.6290322580645161,
+                "f1_macro": 0.5871515345297915,
+                "f1_weighted": 0.6319174603225413,
+                "f1_yes": 0.7092198581560284,
+                "f1_to_some_extent": 0.4457831325301205,
+                "f1_no": 0.6064516129032258,
+                "precision_yes": 0.7075471698113207,
+                "precision_to_some_extent": 0.4111111111111111,
+                "precision_no": 0.6714285714285714,
+                "recall_yes": 0.7109004739336493,
+                "recall_to_some_extent": 0.4868421052631579,
+                "recall_no": 0.5529411764705883
+            },
+            "vs_best_solo": 0.020751534529791504
+        },
+        "max_confidence": {
+            "description": "Choose model with highest confidence per example",
+            "metrics": {
+                "accuracy": 0.6263440860215054,
+                "f1_macro": 0.5839323509608244,
+                "f1_weighted": 0.6294707667306304,
+                "f1_yes": 0.7078384798099763,
+                "f1_to_some_extent": 0.43636363636363634,
+                "f1_no": 0.6075949367088608,
+                "precision_yes": 0.7095238095238096,
+                "precision_to_some_extent": 0.4044943820224719,
+                "precision_no": 0.6575342465753424,
+                "recall_yes": 0.7061611374407583,
+                "recall_to_some_extent": 0.47368421052631576,
+                "recall_no": 0.5647058823529412
+            },
+            "vs_best_solo": 0.017532350960824394
+        },
+        "majority_vote": {
+            "description": "Hard voting with probability-based tie-breaking",
+            "metrics": {
+                "accuracy": 0.6370967741935484,
+                "f1_macro": 0.5943676684321603,
+                "f1_weighted": 0.6395366072720938,
+                "f1_yes": 0.7166276346604216,
+                "f1_to_some_extent": 0.43902439024390244,
+                "f1_no": 0.6274509803921569,
+                "precision_yes": 0.7083333333333334,
+                "precision_to_some_extent": 0.4090909090909091,
+                "precision_no": 0.7058823529411765,
+                "recall_yes": 0.7251184834123223,
+                "recall_to_some_extent": 0.47368421052631576,
+                "recall_no": 0.5647058823529412
+            },
+            "vs_best_solo": 0.027967668432160253
+        }
+    }
+}
