@@ -1,0 +1,17 @@
+{
+  "best_f1_macro": 0.6998841906200941,
+  "best_params": {
+    "focal_gamma": 2.0,
+    "learning_rate": 5.359901799601782e-06,
+    "weight_decay": 0.17660451484149695,
+    "warmup_ratio": 0.1738237481242515,
+    "label_smoothing": 0.03454703812379384,
+    "balance_strategy": "adaptive",
+    "batch_size": 16,
+    "lr_scheduler": "cosine_with_restarts",
+    "hidden_dropout": 0.10669893763687327,
+    "attention_dropout": 0.2899012651139477,
+    "layerwise_decay": 0.9030349255708339
+  },
+  "trial_number": 142
+}
