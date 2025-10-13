@@ -1,0 +1,38 @@
+{
+    "approach": "Hierarchical Two-Stage Classification",
+    "stage1": {
+        "task": "Provides Guidance vs No Guidance",
+        "test_f1": 0.7149425287356321,
+        "test_accuracy": 0.7956989247311828,
+        "errors": 76,
+        "error_rate": 20.43010752688172
+    },
+    "stage2": {
+        "task": "Explicit (Yes) vs Implicit (To some extent)",
+        "test_f1": 0.5904314358612139,
+        "test_accuracy": 0.6550522648083623,
+        "num_examples_classified": 283
+    },
+    "final_3class": {
+        "f1_macro": 0.5240773540861432,
+        "accuracy": 0.5564516129032258,
+        "f1_weighted": 0.5656894216244673,
+        "f1_yes": 0.6361323155216285,
+        "f1_to_some_extent": 0.3728813559322034,
+        "f1_no": 0.5632183908045977,
+        "precision_yes": 0.6868131868131868,
+        "precision_to_some_extent": 0.32673267326732675,
+        "precision_no": 0.550561797752809,
+        "recall_yes": 0.5924170616113744,
+        "recall_to_some_extent": 0.4342105263157895,
+        "recall_no": 0.5764705882352941
+    },
+    "comparison": {
+        "flat_f1": 0.5647,
+        "hierarchical_f1": 0.5240773540861432,
+        "improvement": -0.04062264591385678,
+        "flat_f1_to_some_extent": 0.4051,
+        "hierarchical_f1_to_some_extent": 0.3728813559322034,
+        "improvement_to_some_extent": -0.03221864406779662
+    }
+}
