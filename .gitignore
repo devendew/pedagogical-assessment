@@ -1,5 +1,11 @@
 devendra/mistake_identification/results/
 devendra/mistake_identification/best_model
+devendra/mistake_identification/deberta_with_students_response_only/results/
+devendra/mistake_identification/deberta_with_students_response_only/logs/
+devendra/mistake_identification/bigbird_roberta_with_student_response_only/results/
+devendra/mistake_identification/bigbird_roberta_with_student_response_only/logs/
+devendra/mistake_identification/last_try/results/
+devendra/mistake_identification/last_try/logs/
 devendra/providing_guidance/results/
 devendra/providing_guidance/best_model
 
