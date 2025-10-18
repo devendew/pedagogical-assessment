@@ -6,6 +6,8 @@ devendra/mistake_identification/bigbird_roberta_with_student_response_only/resul
 devendra/mistake_identification/bigbird_roberta_with_student_response_only/logs/
 devendra/mistake_identification/last_try/results/
 devendra/mistake_identification/last_try/logs/
+devendra/mistake_identification/one_more_try/results/
+devendra/mistake_identification/one_more_try/logs/
 devendra/providing_guidance/results/
 devendra/providing_guidance/best_model
 
