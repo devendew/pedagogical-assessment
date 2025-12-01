@@ -34,7 +34,7 @@ distro==1.9.0
 # executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1756729339227/work
 fastjsonschema==2.21.2
 filelock==3.13.1
-fonttools==4.59.2
+fonttools==4.61.0
 fqdn==1.5.1
 frozenlist==1.7.0
 fsspec==2024.6.1
