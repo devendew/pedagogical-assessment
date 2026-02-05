@@ -116,7 +116,7 @@ pillow==11.0.0
 prometheus_client==0.22.1
 # prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1756321756983/work
 propcache==0.3.2
-protobuf==6.32.0
+protobuf==6.33.5
 # psutil @ file:///home/task_175710406524895/conda-bld/psutil_1757104541967/work
 # ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
 # pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
