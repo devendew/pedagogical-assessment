@@ -111,7 +111,7 @@ pandocfilters==1.5.1
 peft==0.17.1
 # pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1733301927746/work
 # pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work
-pillow==11.0.0
+pillow==12.3.0
 # platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1756227402/work
 prometheus_client==0.22.1
 # prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1756321756983/work
