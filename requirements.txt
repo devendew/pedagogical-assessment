@@ -144,7 +144,7 @@ scikit-learn==1.7.1
 scipy==1.16.1
 seaborn==0.13.2
 Send2Trash==1.8.3
-sentence-transformers==5.1.1
+sentence-transformers==5.6.0
 # sentencepiece @ file:///croot/sentencepiece-split_1742566759237/work/python
 setuptools==78.1.1
 # six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
