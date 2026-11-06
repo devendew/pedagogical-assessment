@@ -158,7 +158,7 @@ threadpoolctl==3.6.0
 tiktoken==0.11.0
 tinycss2==1.4.0
 tokenizers==0.22.1
-torch==2.8.0+cu129
+torch==2.13.0
 torchvision==0.23.0+cu129
 # tornado @ file:///croot/tornado_1748956929273/work
 tqdm==4.67.1
